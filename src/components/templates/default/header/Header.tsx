@@ -4,7 +4,7 @@ import { SiteTitle } from "./SiteTitle"
 
 export const Header = () => {
   return (
-    <div>
+    <div className="flex flex-col">
       <Menu />
       <SiteTitle />
     </div>

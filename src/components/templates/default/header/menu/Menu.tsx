@@ -22,7 +22,7 @@ const menuItems = [
 
 export const Menu = () => {
   return (
-    <div className="flex">
+    <div className="flex justify-center">
       {menuItems.map(({ label, url }) => (
         <MenuButton key={url} label={label} url={url} />
       ))}
