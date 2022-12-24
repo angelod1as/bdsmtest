@@ -3,7 +3,7 @@ import React from "react"
 
 export const Footer = () => {
   return (
-    <p className="p-2 text-sm text-center text-lightgray">
+    <p className="px-8 py-2 text-sm text-center text-lightgray">
       By using this website you agree to our{" "}
       <Link href="/privacy">Privacy policy</Link> and to cookies. Any trouble?
       Email{" "}
