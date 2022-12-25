@@ -1,0 +1,17 @@
+{
+  "trailingComma": "all",
+  "semi": false,
+  "overrides": [
+    {
+      "files": [
+        "src/components/contentful/ContentfulSection.tsx",
+        "src/types/autoservice-account-backend/index.ts",
+        "src/types/autoservice-core-backend/index.ts",
+        "src/types/contentful/index.ts"
+      ],
+      "options": {
+        "printWidth": 200
+      }
+    }
+  ]
+}

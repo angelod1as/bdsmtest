@@ -17,7 +17,6 @@ deciders: @angelod1as
 
 > \[...\] with previous contributors I've always made them sign a document that they transfer intellectual property etc. so they can't use that to block their code from being used. But with anonymous strangers contributing to the GitHub repo, that sounds more difficult. Do you know anything about this, or how this is commonly dealt with?
 
-
 The addition of a OSS license is the proposed solution in this ADR.
 
 <!-- This is an optional element. Feel free to remove. -->
@@ -47,5 +46,5 @@ Chosen option: "GPLv3 (Copyleft)". Reasons:
 About the development of this project, GPLv3 can protect the team from future legal issues:
 
 > If a developer uses any GPL component in their software, the entire work falls under GPL’s terms and conditions. GPLv3 provides specific terms for combined works, which may apply when other source code, components, or libraries accompany the GPL software.
-> 
+>
 > [source](https://snyk.io/learn/what-is-gpl-license-gplv3-explained/)
