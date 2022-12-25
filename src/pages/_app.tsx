@@ -8,7 +8,6 @@ export type PageProps = {
 }
 
 export default function App({ Component, pageProps }: AppProps<PageProps>) {
-  console.log(":DEV pageProps: ", pageProps)
   return (
     <Providers pageProps={pageProps}>
       <DefaultTemplate>
