@@ -21,5 +21,6 @@ module.exports = {
         ignoreDeclarationSort: true,
       },
     ],
+    "lodash/prefer-lodash-method": [2, { ignoreMethods: ["map"] }],
   },
 }

@@ -10,7 +10,7 @@
       "login-register": "Log In / Register",
       "profile-logout": "Profile / Log Out",
       "about-faq-contact": "About / FAQ / Contact",
-      "info-and-archetypes": "BDSM Info &amp; Archetypes"
+      "info-and-archetypes": "BDSM Info & Archetypes"
     }
   },
   "pages": {
@@ -20,8 +20,14 @@
         "title": "BDSM Info & Archetypes",
         "description": ""
       },
-      "info": "<p>BDSM is an umbrella term for a variety of (often erotic) practices or roleplaying; it is an acronym representing three components:</p><List> <Item> BD: Bondage &amp; Discipline (playing with physical restraints, training, punishment, etc.) </Item> <Item> DS: Dominance &amp; Submission (playing with obedience, power exchange, service, humility, etc.) </Item> <Item> SM: Sadism &amp; Masochism (playing with pain, degradation, fear, etc.) </Item> </List> <p>More often than not, other 'deviant' sexual practices are also considered to be part of BDSM.</p><p>BDSM is a consensual activity respecting the fundamental rights of every human being involved; this separates it from sexual and domestic abuse.</p> ",
-      "archetypes": "Everyone is different, and finding two kinksters with the exact same preferences is probably impossible. There are however a few common 'archetypes' that people can identify with to varying degrees (from 0% to 100%). Curious to what extent each archetype suits you? Take the test! The list below is by no means complete but it should cover the most common ones."
+      "info": {
+        "title": "BDSM Info",
+        "rich-text-content": "<p>BDSM is an umbrella term for a variety of (often erotic) practices or roleplaying; it is an acronym representing three components:</p><List> <Item> BD: Bondage & Discipline (playing with physical restraints, training, punishment, etc.) </Item> <Item> DS: Dominance & Submission (playing with obedience, power exchange, service, humility, etc.) </Item> <Item> SM: Sadism & Masochism (playing with pain, degradation, fear, etc.) </Item> </List> <p>More often than not, other 'deviant' sexual practices are also considered to be part of BDSM.</p><p>BDSM is a consensual activity respecting the fundamental rights of every human being involved; this separates it from sexual and domestic abuse.</p> "
+      },
+      "archetypes": {
+        "title": "BDSM Archetypes",
+        "rich-text-content": "Everyone is different, and finding two kinksters with the exact same preferences is probably impossible. There are however a few common 'archetypes' that people can identify with to varying degrees (from 0% to 100%). Curious to what extent each archetype suits you? Take the test! The list below is by no means complete but it should cover the most common ones."
+      }
     }
   },
   "archetypes": {
