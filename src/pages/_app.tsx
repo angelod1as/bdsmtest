@@ -5,11 +5,9 @@ import IntlPolyfills from "scripts/polyfills"
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <>
-      <NextIntlProvider messages={pageProps.messages} timeZone="Etc/Universal">
-        <IntlPolyfills />
-        <Component {...pageProps} />
-      </NextIntlProvider>
-    </>
+    <NextIntlProvider messages={pageProps.messages} timeZone="Etc/Universal">
+      <IntlPolyfills />
+      <Component {...pageProps} />
+    </NextIntlProvider>
   )
 }
