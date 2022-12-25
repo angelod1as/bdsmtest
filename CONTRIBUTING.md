@@ -6,10 +6,11 @@ First off, thanks for taking the time to contribute! ❤️
 All types of contributions are encouraged and valued. See the [Table of Contents](#table-of-contents) for different ways to help and details about how this project handles them. Please make sure to read the relevant section before making your contribution. It will make it a lot easier for us maintainers and smooth out the experience for all involved. The community looks forward to your contributions. 🎉
 
 > And if you like the project, but just don't have time to contribute, that's fine. There are other easy ways to support the project and show your appreciation, which we would also be very happy about:
-> - Star the project
-> - Tweet about it
-> - Refer this project in your project's readme
-> - Mention the project at local meetups and tell your friends/colleagues
+
+- Star the project
+- Tweet about it
+- Refer this project in your project's readme
+- Mention the project at local meetups and tell your friends/colleagues
 
 <!-- omit in toc -->
 ## Table of Contents
@@ -21,14 +22,12 @@ All types of contributions are encouraged and valued. See the [Table of Contents
   - [Suggesting Enhancements](#suggesting-enhancements)
 - [Join The Project Team](#join-the-project-team)
 
-
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the
 [BDSMtest Code of Conduct](CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code. Please report unacceptable behavior
 to <bdsmtest.org@gmail.com>.
-
 
 ## I Have a Question
 
@@ -62,7 +61,9 @@ Depending on how large the project is, you may want to outsource the questioning
 
 ## I Want To Contribute
 
-> ### Legal Notice <!-- omit in toc -->
+<!-- omit in toc -->
+### Legal Notice
+
 > When contributing to this project, you must agree that you have authored 100% of the content, that you have the necessary rights to the content and that the content you contribute may be provided under the project license.
 >
 > As this is a project under GPLv3, all contributions here are void of copyright claims in the future — they will belong to the community as the code in this project also belongs to the community.
@@ -102,10 +103,27 @@ Once it's filed:
 
 - The project team will label the issue accordingly.
 - A team member will try to reproduce the issue with your provided steps. If there are no reproduction steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark the issue as `needs-repro`. Bugs with the `needs-repro` tag will not be addressed until they are reproduced.
-- If the team is able to reproduce the issue, it will be marked `needs-fix`, as well as possibly other tags (such as `critical`), and the issue will be left to be [implemented by someone](#your-first-code-contribution).
+- If the team is able to reproduce the issue, it will be marked `needs-fix`, as well as possibly other tags (such as `critical`), and the issue will be left to be implemented by someone.
 
 <!-- You might want to create an issue template for bugs and errors that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
 
+### Running the project locally
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+We expect you to have a minimal understanding on NextJS functionalities to collaborate with the React codebase.
+
+There's no NextJS knowledge needed for translation or documentation updates.
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ### Suggesting Enhancements
 
@@ -151,8 +169,10 @@ Updating, improving and correcting the documentation
 -->
 
 ## Join The Project Team
+
 Simply write an email to <oiangelodias@gmail.com> with "BDSMtest Project" as the subject, explaining what drives you to collaborate more seriously with such project.
 
 <!-- omit in toc -->
 ## Attribution
+
 This guide is based on the **contributing-gen**. [Make your own](https://github.com/bttger/contributing-gen)!
