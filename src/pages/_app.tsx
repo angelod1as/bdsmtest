@@ -1,16 +1,19 @@
 import "../styles/global.css"
 import type { AppProps } from "next/app"
 import { Default as DefaultTemplate } from "components/templates/default/Default"
-import { NextIntlProvider } from "next-intl"
-import IntlPolyfills from "scripts/polyfills"
+import { Providers } from "components/providers/Providers"
 
-export default function App({ Component, pageProps }: AppProps) {
+export type PageProps = {
+  messages: Record<string, string>
+}
+
+export default function App({ Component, pageProps }: AppProps<PageProps>) {
+  console.log(":DEV pageProps: ", pageProps)
   return (
-    <NextIntlProvider messages={pageProps.messages} timeZone="Etc/Universal">
-      <IntlPolyfills />
+    <Providers pageProps={pageProps}>
       <DefaultTemplate>
         <Component {...pageProps} />
       </DefaultTemplate>
-    </NextIntlProvider>
+    </Providers>
   )
 }
