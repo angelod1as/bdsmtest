@@ -1,7 +1,7 @@
 import Head from "next/head"
-import { GetStaticProps } from "next"
+import { GetStaticProps, InferGetStaticPropsType } from "next"
 
-export default function Home() {
+export default function Home(): InferGetStaticPropsType<typeof getStaticProps> {
   return (
     <div>
       <Head>
