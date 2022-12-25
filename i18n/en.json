@@ -9,6 +9,159 @@
       "info-and-archetypes": "BDSM Info &amp; Archetypes"
     }
   },
+  "pages": {
+    "about": {
+      "info": "<p>BDSM is an umbrella term for a variety of (often erotic) practices or roleplaying; it is an acronym representing three components:</p><List> <Item> BD: Bondage &amp; Discipline (playing with physical restraints, training, punishment, etc.) </Item> <Item> DS: Dominance &amp; Submission (playing with obedience, power exchange, service, humility, etc.) </Item> <Item> SM: Sadism &amp; Masochism (playing with pain, degradation, fear, etc.) </Item> </List> <p>More often than not, other 'deviant' sexual practices are also considered to be part of BDSM.</p><p>BDSM is a consensual activity respecting the fundamental rights of every human being involved; this separates it from sexual and domestic abuse.</p> ",
+      "archetypes": "Everyone is different, and finding two kinksters with the exact same preferences is probably impossible. There are however a few common 'archetypes' that people can identify with to varying degrees (from 0% to 100%). Curious to what extent each archetype suits you? Take the test! The list below is by no means complete but it should cover the most common ones."
+    }
+  },
+  "archetypes": [
+    {
+      "name": "Ageplayer",
+      "pairdesc": "Ageplayers typically pair up with other ageplayers.",
+      "description": "Ageplayers like to play with age as part of their kink. They typically take on a much younger or older age than they actually are, or prefer playing with a partner that does so. Attributes and behavior changes (such as pacifiers, coloring books, speaking in more childlike language, etc.) are commonly paired with this, to enrich the context and make it more appropriate for the played age. Sexuality is not necessarily involved, and there is no link at all with pedophilia (which is simply not on the BDSM spectrum)."
+    },
+    {
+      "name": "All-rounder",
+      "description": "All-rounders have no specific preferences to either category. It doesn't matter who's in charge and who inflicts what on who, they all like it equally much. They have no other suitable category here.",
+      "pairdesc": "All-rounders typically match well with other all-rounders."
+    },
+    {
+      "name": "Brat",
+      "pairdesc": "Brats typically pair up with brat tamers.",
+      "description": "Brats are, in essence, naughty submissives. They find disobedience a form of playfulness rather than letting their dominant down, and require a compatible dominant who will not only teach them a lesson, but also accept that any number of lessons might still not necessarily change this behavior."
+    },
+    {
+      "name": "Brat tamer",
+      "pairdesc": "Brat Tamers typically pair up with brats.",
+      "description": "Brat tamers are, in essence, dominants who enjoy handling bratty submissives. They find disobedience a form of playfulness from the side of the submissive, rather than a form of rudeness. They will take no offence to it, but will still teach the sub a well deserved lesson (because, of course, that is why the bratty sub shows such behavior in the first place)."
+    },
+    {
+      "name": "Daddy/Mommy",
+      "pairdesc": "Daddies/Mommies typically pair up with girls/boys.",
+      "description": "Daddies/Mommies take on a caretaker role in the relationship, being a guide as much a dominant. Daddies/Mommies dominate their little treasure submissives with an iron fist in a velvet glove: much cuddly and affectionate on the outside, while being as sturdy and hard on the inside as other dominants. Using subtle psychological mechanisms rather than brute power, they nurture their littles into obedience. Sexuality is not necessarily involved, and there is no link at all with pedophilia (which is simply not on the BDSM spectrum)."
+    },
+    {
+      "name": "Degrader",
+      "pairdesc": "Degraders typically pair up with degradees.",
+      "description": "Degraders like to degrade and humiliate their play partner(s), either by acting upon them in a degrading way, or by or by forcing them to do things they consider degrading."
+    },
+    {
+      "name": "Dominant",
+      "pairdesc": "Dominants typically pair up with submissives.",
+      "description": "Dominants like to be in charge. Some like to have their partner obey them without questioning, others like some resistance while taking it their way. Some are dominant only in the bedroom, others are dominant throughout their daily life as well. Unlike the top roles (giving pain/bondage/degradation), being dominant is more about who decides what happens (and takes the responsibility that comes with it) than about the contents of what happens."
+    },
+    {
+      "name": "Degradee",
+      "pairdesc": "Degradees typically pair up with degraders.",
+      "description": "Degradees like to be degraded and humiliated by their play partner(s), either by being acted upon in a degrading way, or by being forced do things they consider degrading."
+    },
+    {
+      "name": "Fetishist",
+      "description": "Fetishists have a specific idea, situation, concept or object around which a large part of their sexual fantasies revolves. For some this is a necessity to get turned on, for others it's only an addition to the more classical turn-ons.",
+      "pairdesc": "Fetishists typically match well with other fetishists."
+    },
+    {
+      "name": "Boy/Girl",
+      "pairdesc": "Girls/boys typically pair up with daddies/mommies.",
+      "description": "Littles (girls/boys) are submissive spirits with a strong flavor childlike innocence. They long for a nurturing loving dominant who plays a guiding, almost parental role in their lives. While they require a softer approach to be dominated than most other submissives, their submission can be just as deep as that of other submissives or slaves. Sexuality is not necessarily involved, and there is no link at all with pedophilia (which is simply not on the BDSM spectrum)."
+    },
+    {
+      "name": "Masochist",
+      "pairdesc": "Masochists typically pair up with sadists.",
+      "description": "Masochists enjoy receiving (certain types of) pain from their partner(s), usually in a sexual context. Masochism is independent of pain tolerance: it is purely about the ability to enjoy (or get aroused by) certain levels of pain."
+    },
+    {
+      "name": "Master/Mistress",
+      "pairdesc": "Masters/Mistresses typically pair up with slaves.",
+      "description": "Masters/Mistresses receive complete control over the life of their slave(s), and all responsibilities that come with it. They go a step further than dominants in the sense that their power exchange is present 24/7 and in all aspects of their life (except for negotiated exceptions such as during their office jobs). Their primary focus is to create a stable and safe environment for their slave(s), to allow optimal servitude."
+    },
+    {
+      "name": "Non-monogamist",
+      "pairdesc": "Non-monogamists typically pair up with (several) other non-monogamists.",
+      "description": "Non-monogamists do not see sexuality as necessarily a 1 on 1 thing. Whether this means they will have several relationships or just see other people outside their relationship (or have even more exquisite constructions) depends entirely on the person and the situation, but they all have one thing in common: their sexuality is more than just between them and one fixed partner."
+    },
+    {
+      "name": "Owner",
+      "pairdesc": "Owners typically pair up with pets.",
+      "description": "Owners own pets/properties and take responsibility over them, on a 24/7 basis. Sexuality is not necessarily involved; in some cases role play attributes are also provided (e.g. a cage for the pet). There is no link at all with sex with animals (which is simply not on the BDSM spectrum), and many pets don't even feel like they're playing an animal, it's more about the typical relationship between an owner and a pet."
+    },
+    {
+      "name": "Pervert",
+      "description": "Perverts are sexual freethinkers, not afraid to set traditional views and ethics aside to do what their own value system tells them is best. Whether they prefer being the predator or the prey, they'll take the hunt to new extremes, and with their 'anything goes' mentality they will not let societal rules or expectations get in the way of their heart (or, for that matter, their genitals).",
+      "pairdesc": "Perverts typically match well with other perverts."
+    },
+    {
+      "name": "Primal",
+      "description": "Primals are mainly focused on their natural instincts and they enjoy letting their inner animal out during sex. The key part for primals play is that the participants show their raw, emotional sexual feelings during play. All of the labels, roles, and protocols go out the window, and the prey can become a snarling, growing, clawing animal hell-bent on getting away from its predator (where natural order will decide who is prey and who is predator).",
+      "pairdesc": "Primals typically match well with other primals."
+    },
+    {
+      "name": "Primal (Hunter)",
+      "pairdesc": "Hunters typically pair up with primal preys.",
+      "description": "Primals are mainly focused on their natural instincts and they enjoy letting their inner animal out during sex. The key part for primals play is that the participants show their raw, emotional sexual feelings during play. All of the labels, roles, and protocols go out the window, and the prey can become a snarling, growing, clawing animal hell-bent on getting away from its predator (you)."
+    },
+    {
+      "name": "Pet",
+      "pairdesc": "Pets typically pair up with owners.",
+      "description": "Pets are property of their owner in daily life. Sexuality is not necessarily involved; in some cases role play attributes are also provided (e.g. a cage for the pet). There is no link at all with sex with animals (which is simply not on the BDSM spectrum), and many pets don't even feel like they're playing an animal, it's more about the typical relationship between an owner and a pet."
+    },
+    {
+      "name": "Primal (Prey)",
+      "pairdesc": "Preys typically pair up with primal hunters.",
+      "description": "Primals are mainly focused on their natural instincts and they enjoy letting their inner animal out during sex. The key part for primals play is that the participants show their raw, emotional sexual feelings during play. All of the labels, roles, and protocols go out the window, and the prey (you) can become a snarling, growing, clawing animal hell-bent on getting away from its predator."
+    },
+    {
+      "name": "Rigger",
+      "pairdesc": "Riggers typically pair up with rope bunnies.",
+      "description": "Riggers like to tie up and restrain their partner(s), using rope and/or other attributes (chains, cuffs, spreader bars, etc.). Whether for sexual enhancement, for art or just for fun, they enjoy having their partners completely at their mercy."
+    },
+    {
+      "name": "Rope bunny",
+      "pairdesc": "Rope bunnies typically pair up with riggers.",
+      "description": "Rope bunny likes to be tied up and restrained, using rope and/or other attributes (chains, cuffs, spreader bars, etc.). Whether for sexual enhancement, for art or just for fun, they enjoy being totally at the mercy of their partner(s)."
+    },
+    {
+      "name": "Sadist",
+      "pairdesc": "Sadists typically pair up with masochists.",
+      "description": "Sadists enjoy inflicting (certain types of) pain on their partner(s), usually in a sexual context."
+    },
+    {
+      "name": "Slave",
+      "pairdesc": "Slaves typically pair up with masters/mistresses.",
+      "description": "Slaves completely hand over the control and responsibilities over their life to their master/mistress. They go a step further than submissives in the sense that their power exchange is present 24/7 and in all aspects of their life (except for negotiated exceptions such as during their office jobs). Serving their master/mistress is their primary focus in life and they rarely have limits for them."
+    },
+    {
+      "name": "Submissive",
+      "pairdesc": "Submissives typically pair up with dominants.",
+      "description": "Submissives like to follow. Some like to give the control away to their partner(s), some like to have it forcibly taken from them. Some are submissive only in the bedroom, others are submissive throughout their daily life as well (usually with limitations). Unlike the bottom roles (receiving pain/bondage/degradation), being submissive is more about who decides what happens (and takes the responsibility that comes with it) than about the contents of what happens."
+    },
+    {
+      "name": "Switch",
+      "pairdesc": "Switches typically pair up with other switches.",
+      "description": "Switches like to... well, switch. Always taking a dominant or top position is not for them, neither is always taking a submissive or bottom position. Some prefer to switch with the same partner or partners, others have a dominant play partner and a submissive play partner, but in either case they do not fit on one end point of the spectrum."
+    },
+    {
+      "name": "Vanilla",
+      "pairdesc": "Vanillas typically pair up with other vanillas.",
+      "description": "Vanilla people enjoy regular, standard sex and relationship models. Nothing wrong with that, as long as you're having fun!"
+    },
+    {
+      "name": "Voyeur",
+      "pairdesc": "Voyeurs typically pair up with exhibitionists.",
+      "description": "Voyeurs enjoy watching the nakedness or sexual activity of other people. Consensually, of course."
+    },
+    {
+      "name": "Exhibitionist",
+      "pairdesc": "Exhibitionists typically pair up with voyeurs.",
+      "description": "Exhibitionists enjoy showing their naked body or a sexual activity to other people. Consensually, of course."
+    },
+    {
+      "name": "Experimentalist",
+      "pairdesc": "Experimentalists typically pair up with other experimentalists.",
+      "description": "Experimentalists want to have tried it all. An open mind and an insatiable curiosity are their key features, and they will rarely form an opinion before they have gathered first hand experience. They often have plenty of fantasies and will actively pursue to try them out."
+    }
+  ],
   "copied-but-not-organized": {
     "claim-button": {
       "claim": "Add",
@@ -129,154 +282,7 @@
       "registerwelcome": "Please fill in the form below to create your account.",
       "passforgotmailsenttitle": "Check your mailbox to continue",
       "passforgotmailsent": "Got it! We sent you an email to restore your password. The link in this email is only valid for 24 hours, so don't wait too long!"
-    },
-    "archetypes": [
-      {
-        "name": "Ageplayer",
-        "pairdesc": "Ageplayers typically pair up with other ageplayers.",
-        "description": "Ageplayers like to play with age as part of their kink. They typically take on a much younger or older age than they actually are, or prefer playing with a partner that does so. Attributes and behavior changes (such as pacifiers, coloring books, speaking in more childlike language, etc.) are commonly paired with this, to enrich the context and make it more appropriate for the played age. Sexuality is not necessarily involved, and there is no link at all with pedophilia (which is simply not on the BDSM spectrum)."
-      },
-      {
-        "name": "All-rounder",
-        "description": "All-rounders have no specific preferences to either category. It doesn't matter who's in charge and who inflicts what on who, they all like it equally much. They have no other suitable category here.",
-        "pairdesc": "All-rounders typically match well with other all-rounders."
-      },
-      {
-        "name": "Brat",
-        "pairdesc": "Brats typically pair up with brat tamers.",
-        "description": "Brats are, in essence, naughty submissives. They find disobedience a form of playfulness rather than letting their dominant down, and require a compatible dominant who will not only teach them a lesson, but also accept that any number of lessons might still not necessarily change this behavior."
-      },
-      {
-        "name": "Brat tamer",
-        "pairdesc": "Brat Tamers typically pair up with brats.",
-        "description": "Brat tamers are, in essence, dominants who enjoy handling bratty submissives. They find disobedience a form of playfulness from the side of the submissive, rather than a form of rudeness. They will take no offence to it, but will still teach the sub a well deserved lesson (because, of course, that is why the bratty sub shows such behavior in the first place)."
-      },
-      {
-        "name": "Daddy/Mommy",
-        "pairdesc": "Daddies/Mommies typically pair up with girls/boys.",
-        "description": "Daddies/Mommies take on a caretaker role in the relationship, being a guide as much a dominant. Daddies/Mommies dominate their little treasure submissives with an iron fist in a velvet glove: much cuddly and affectionate on the outside, while being as sturdy and hard on the inside as other dominants. Using subtle psychological mechanisms rather than brute power, they nurture their littles into obedience. Sexuality is not necessarily involved, and there is no link at all with pedophilia (which is simply not on the BDSM spectrum)."
-      },
-      {
-        "name": "Degrader",
-        "pairdesc": "Degraders typically pair up with degradees.",
-        "description": "Degraders like to degrade and humiliate their play partner(s), either by acting upon them in a degrading way, or by or by forcing them to do things they consider degrading."
-      },
-      {
-        "name": "Dominant",
-        "pairdesc": "Dominants typically pair up with submissives.",
-        "description": "Dominants like to be in charge. Some like to have their partner obey them without questioning, others like some resistance while taking it their way. Some are dominant only in the bedroom, others are dominant throughout their daily life as well. Unlike the top roles (giving pain/bondage/degradation), being dominant is more about who decides what happens (and takes the responsibility that comes with it) than about the contents of what happens."
-      },
-      {
-        "name": "Degradee",
-        "pairdesc": "Degradees typically pair up with degraders.",
-        "description": "Degradees like to be degraded and humiliated by their play partner(s), either by being acted upon in a degrading way, or by being forced do things they consider degrading."
-      },
-      {
-        "name": "Fetishist",
-        "description": "Fetishists have a specific idea, situation, concept or object around which a large part of their sexual fantasies revolves. For some this is a necessity to get turned on, for others it's only an addition to the more classical turn-ons.",
-        "pairdesc": "Fetishists typically match well with other fetishists."
-      },
-      {
-        "name": "Boy/Girl",
-        "pairdesc": "Girls/boys typically pair up with daddies/mommies.",
-        "description": "Littles (girls/boys) are submissive spirits with a strong flavor childlike innocence. They long for a nurturing loving dominant who plays a guiding, almost parental role in their lives. While they require a softer approach to be dominated than most other submissives, their submission can be just as deep as that of other submissives or slaves. Sexuality is not necessarily involved, and there is no link at all with pedophilia (which is simply not on the BDSM spectrum)."
-      },
-      {
-        "name": "Masochist",
-        "pairdesc": "Masochists typically pair up with sadists.",
-        "description": "Masochists enjoy receiving (certain types of) pain from their partner(s), usually in a sexual context. Masochism is independent of pain tolerance: it is purely about the ability to enjoy (or get aroused by) certain levels of pain."
-      },
-      {
-        "name": "Master/Mistress",
-        "pairdesc": "Masters/Mistresses typically pair up with slaves.",
-        "description": "Masters/Mistresses receive complete control over the life of their slave(s), and all responsibilities that come with it. They go a step further than dominants in the sense that their power exchange is present 24/7 and in all aspects of their life (except for negotiated exceptions such as during their office jobs). Their primary focus is to create a stable and safe environment for their slave(s), to allow optimal servitude."
-      },
-      {
-        "name": "Non-monogamist",
-        "pairdesc": "Non-monogamists typically pair up with (several) other non-monogamists.",
-        "description": "Non-monogamists do not see sexuality as necessarily a 1 on 1 thing. Whether this means they will have several relationships or just see other people outside their relationship (or have even more exquisite constructions) depends entirely on the person and the situation, but they all have one thing in common: their sexuality is more than just between them and one fixed partner."
-      },
-      {
-        "name": "Owner",
-        "pairdesc": "Owners typically pair up with pets.",
-        "description": "Owners own pets/properties and take responsibility over them, on a 24/7 basis. Sexuality is not necessarily involved; in some cases role play attributes are also provided (e.g. a cage for the pet). There is no link at all with sex with animals (which is simply not on the BDSM spectrum), and many pets don't even feel like they're playing an animal, it's more about the typical relationship between an owner and a pet."
-      },
-      {
-        "name": "Pervert",
-        "description": "Perverts are sexual freethinkers, not afraid to set traditional views and ethics aside to do what their own value system tells them is best. Whether they prefer being the predator or the prey, they'll take the hunt to new extremes, and with their 'anything goes' mentality they will not let societal rules or expectations get in the way of their heart (or, for that matter, their genitals).",
-        "pairdesc": "Perverts typically match well with other perverts."
-      },
-      {
-        "name": "Primal",
-        "description": "Primals are mainly focused on their natural instincts and they enjoy letting their inner animal out during sex. The key part for primals play is that the participants show their raw, emotional sexual feelings during play. All of the labels, roles, and protocols go out the window, and the prey can become a snarling, growing, clawing animal hell-bent on getting away from its predator (where natural order will decide who is prey and who is predator).",
-        "pairdesc": "Primals typically match well with other primals."
-      },
-      {
-        "name": "Primal (Hunter)",
-        "pairdesc": "Hunters typically pair up with primal preys.",
-        "description": "Primals are mainly focused on their natural instincts and they enjoy letting their inner animal out during sex. The key part for primals play is that the participants show their raw, emotional sexual feelings during play. All of the labels, roles, and protocols go out the window, and the prey can become a snarling, growing, clawing animal hell-bent on getting away from its predator (you)."
-      },
-      {
-        "name": "Pet",
-        "pairdesc": "Pets typically pair up with owners.",
-        "description": "Pets are property of their owner in daily life. Sexuality is not necessarily involved; in some cases role play attributes are also provided (e.g. a cage for the pet). There is no link at all with sex with animals (which is simply not on the BDSM spectrum), and many pets don't even feel like they're playing an animal, it's more about the typical relationship between an owner and a pet."
-      },
-      {
-        "name": "Primal (Prey)",
-        "pairdesc": "Preys typically pair up with primal hunters.",
-        "description": "Primals are mainly focused on their natural instincts and they enjoy letting their inner animal out during sex. The key part for primals play is that the participants show their raw, emotional sexual feelings during play. All of the labels, roles, and protocols go out the window, and the prey (you) can become a snarling, growing, clawing animal hell-bent on getting away from its predator."
-      },
-      {
-        "name": "Rigger",
-        "pairdesc": "Riggers typically pair up with rope bunnies.",
-        "description": "Riggers like to tie up and restrain their partner(s), using rope and/or other attributes (chains, cuffs, spreader bars, etc.). Whether for sexual enhancement, for art or just for fun, they enjoy having their partners completely at their mercy."
-      },
-      {
-        "name": "Rope bunny",
-        "pairdesc": "Rope bunnies typically pair up with riggers.",
-        "description": "Rope bunny likes to be tied up and restrained, using rope and/or other attributes (chains, cuffs, spreader bars, etc.). Whether for sexual enhancement, for art or just for fun, they enjoy being totally at the mercy of their partner(s)."
-      },
-      {
-        "name": "Sadist",
-        "pairdesc": "Sadists typically pair up with masochists.",
-        "description": "Sadists enjoy inflicting (certain types of) pain on their partner(s), usually in a sexual context."
-      },
-      {
-        "name": "Slave",
-        "pairdesc": "Slaves typically pair up with masters/mistresses.",
-        "description": "Slaves completely hand over the control and responsibilities over their life to their master/mistress. They go a step further than submissives in the sense that their power exchange is present 24/7 and in all aspects of their life (except for negotiated exceptions such as during their office jobs). Serving their master/mistress is their primary focus in life and they rarely have limits for them."
-      },
-      {
-        "name": "Submissive",
-        "pairdesc": "Submissives typically pair up with dominants.",
-        "description": "Submissives like to follow. Some like to give the control away to their partner(s), some like to have it forcibly taken from them. Some are submissive only in the bedroom, others are submissive throughout their daily life as well (usually with limitations). Unlike the bottom roles (receiving pain/bondage/degradation), being submissive is more about who decides what happens (and takes the responsibility that comes with it) than about the contents of what happens."
-      },
-      {
-        "name": "Switch",
-        "pairdesc": "Switches typically pair up with other switches.",
-        "description": "Switches like to... well, switch. Always taking a dominant or top position is not for them, neither is always taking a submissive or bottom position. Some prefer to switch with the same partner or partners, others have a dominant play partner and a submissive play partner, but in either case they do not fit on one end point of the spectrum."
-      },
-      {
-        "name": "Vanilla",
-        "pairdesc": "Vanillas typically pair up with other vanillas.",
-        "description": "Vanilla people enjoy regular, standard sex and relationship models. Nothing wrong with that, as long as you're having fun!"
-      },
-      {
-        "name": "Voyeur",
-        "pairdesc": "Voyeurs typically pair up with exhibitionists.",
-        "description": "Voyeurs enjoy watching the nakedness or sexual activity of other people. Consensually, of course."
-      },
-      {
-        "name": "Exhibitionist",
-        "pairdesc": "Exhibitionists typically pair up with voyeurs.",
-        "description": "Exhibitionists enjoy showing their naked body or a sexual activity to other people. Consensually, of course."
-      },
-      {
-        "name": "Experimentalist",
-        "pairdesc": "Experimentalists typically pair up with other experimentalists.",
-        "description": "Experimentalists want to have tried it all. An open mind and an insatiable curiosity are their key features, and they will rarely form an opinion before they have gathered first hand experience. They often have plenty of fantasies and will actively pursue to try them out."
-      }
-    ]
+    }
   },
   "static-pages": {
     "about": "About us",
@@ -305,14 +311,7 @@
       ]
     },
     "bdsmtestabout": "The BDSM Test is a fun and educational test to determine what kind of kinkster you are. It was founded in 2014 with as its main mission to make a simple, accessible test to help beginning kinksters determine which labels are or aren't suitable for them; and to be a fun experience for everyone taking it, beginners and experts alike.",
-    "bdsmtestcontact": "Community feedback has always been a key element of our approach, and we greatly appreciate any feedback you may have (in English!), using the form below. Please note that we do not send out individual responses; if you want a reply or have an urgent issue to report, and the FAQ below doesn't answer your question, please use email instead.",
-    "bdsmtestinfo1": "BDSM is an umbrella term for a variety of (often erotic) practices or roleplaying; it is an acronym representing three components:",
-    "bdsmtestinfoBD": "BD: Bondage &amp; Discipline (playing with physical restraints, training, punishment, etc.)",
-    "bdsmtestinfoDS": "DS: Dominance &amp; Submission (playing with obedience, power exchange, service, humility, etc.)",
-    "bdsmtestinfoSM": "SM: Sadism &amp; Masochism (playing with pain, degradation, fear, etc.)",
-    "bdsmtestinfo2": "More often than not, other 'deviant' sexual practices are also considered to be part of BDSM.",
-    "bdsmtestinfoConsent": "BDSM is a consensual activity respecting the fundamental rights of every human being involved; this separates it from sexual and domestic abuse.",
-    "bdsmtestinfoArchetypes": "Everyone is different, and finding two kinksters with the exact same preferences is probably impossible. There are however a few common 'archetypes' that people can identify with to varying degrees (from 0% to 100%). Curious to what extent each archetype suits you? Take the test! The list below is by no means complete but it should cover the most common ones."
+    "bdsmtestcontact": "Community feedback has always been a key element of our approach, and we greatly appreciate any feedback you may have (in English!), using the form below. Please note that we do not send out individual responses; if you want a reply or have an urgent issue to report, and the FAQ below doesn't answer your question, please use email instead."
   },
   "errors": {
     "diffemails": "You need to enter the same email address twice or select 'No'. You entered '%em1%' and '%em2%' on the question ''%q%''.",
