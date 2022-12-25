@@ -1,4 +1,5 @@
 import Head from "next/head"
+import { GetStaticProps } from "next"
 
 export default function Home() {
   return (
@@ -12,4 +13,16 @@ export default function Home() {
       <div className="font-extrabold bg-fuchsia-300">Hello World.</div>
     </div>
   )
+}
+
+// TODO: Should we add specific namespaces?
+// https://next-intl-docs.vercel.app/docs/usage/messages
+export const getStaticProps: GetStaticProps = async (context) => {
+  const locale = context.locale
+
+  return {
+    props: {
+      messages: (await import(`../../i18n/${locale}.json`)).default,
+    },
+  }
 }
