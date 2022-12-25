@@ -1,5 +1,368 @@
 {
   "common": {
-    "quiztitle": "Let's test the kink out of you!"
+    "quiztitle": "Let's test the kink out of you!",
+    "navigation": {
+      "start-new-test": "Start new BDSM Test!",
+      "login-register": "Log In / Register",
+      "profile-logout": "Profile / Log Out",
+      "about-faq-contact": "About / FAQ / Contact",
+      "info-and-archetypes": "BDSM Info &amp; Archetypes"
+    }
+  },
+  "copied-but-not-organized": {
+    "claim-button": {
+      "claim": "Add",
+      "unclaim": "Remove"
+    },
+    "pairing-string": "... typically match well with ...",
+    "progress": "Progress: 30%",
+    "resume-test": "Resume Test (30% complete)",
+    "return-to-result": "Return to your result",
+
+    "quiz-page": {
+      "prelimhead": "First some basic info",
+      "next": "Next",
+      "questionhead": "To what extent do you agree with each statement?",
+      "progressbar": "Total quiz progress",
+      "fulldisagree": "absolutely disagree",
+      "neutral": "neutral / no opinion",
+      "fullagree": "absolutely agree",
+      "answerall": "Please answer all questions on this page before proceeding.",
+      "recaptchahead": "Final step: prove that you're human",
+      "reload": "Reload",
+      "resultstitle": "Test Results",
+      "restartbutton": "Start Over",
+      "summary": "Results Summary (taken %%)",
+      "copymsg": "Copy your results from below to your blog or profile.",
+      "ratemsg": "How well do you feel these results fit you? Rate them here.",
+      "ratescale": "(1 = absolutely not me, 5 = perfectly describes me)",
+      "pdfbutton": "View Detailed Results PDF",
+      "welcometitle": "Welcome to the BDSM Test!",
+      "beforewestart": "Before we start...",
+      "robocheck": "we need to check you're not a robot.",
+      "pinkiepromise": "I pinkie promise I'm not a robot!",
+      "send": "Send",
+      "prevresbelow": "Below are your previous test results:",
+      "onbeforeunload": "Are you sure you want to leave this website? Continuing will make you lose all answers you entered so far!",
+      "pagecounter": "Questions (page %p%)",
+      "fetchingq": "Fetching questions...",
+      "fetchingf": "Fetching final page...",
+      "optf": "Optional Feedback",
+      "optstep": "Optional step: help us improve the quiz",
+      "optstepdesc": "This step is optional. Feel free to skip it.",
+      "skip": "Skip",
+      "feedbdesc": "Indicate for each archetype how well it suits you.",
+      "feedbdesc2": "(They are randomly selected, don't overthink this.)",
+      "calcing": "Calculating your results... (if this takes too long, check your internet connection, or click one of the menu buttons and then come back)",
+      "fetchingr": "Loading... (refresh if anything goes wrong)",
+      "res": "Test Results",
+      "copied": "Successfully copied to clipboard!",
+      "sometimeago": "some time ago",
+      "submit": "Submit Answers",
+      "pleasewait": "Please wait...",
+      "qansweralts": [
+        "No Idea",
+        "Completely Disagree",
+        "Disagree",
+        "Rather Disagree",
+        "Neutral",
+        "Rather Agree",
+        "Agree",
+        "Completely Agree"
+      ]
+    },
+    "account-system": {
+      "selectmode": "Select Mode",
+      "anonoraccount": "We'll begin testing your kinkiness shortly. Would you like us to help you track your evolution over time with a free account?",
+      "startanon": "No, I want to start the test anonymously now.",
+      "startacc": "Yes, take me to the login/register page.",
+      "enteremail": "Please enter your email address to continue",
+      "passresetsent": "You have received an email on %em% with instructions how to reset your password.",
+      "passresetsenttitle": "Next step: check your email",
+      "emailchangesenttitle": "Email change successful",
+      "emailchangesent": "We've successfully changed your email. We've logged you out so you can immediately log in again with your new email!",
+      "verifying": "Verifying...",
+      "erroremailchange": "Could not change email address automatically, possibly you've tried this too often or we already have the new address on file somehow. Contact bdsmtest.org@gmail.com if the problem persists, and we'll help you sort this.",
+      "email": "Email",
+      "newemail": "New Email",
+      "pass": "Password",
+      "login": "Log In",
+      "loggingin": "Logging in...",
+      "passfgttxt": "If you forgot your password, click the button below.",
+      "iforgot": "I forgot...",
+      "sendingpassreset": "Sending you an email with instructions...",
+      "verifid": "Verifying your identity...",
+      "newpass": "New Password",
+      "cannotchange": "(cannot be changed here)",
+      "choosepass": "Choose a password",
+      "repeat": "(repeat it)",
+      "reset": "Reset",
+      "change": "Change",
+      "changename": "Change Name",
+      "changesuccess": "Change successful!",
+      "changingname": "Changing your name...",
+      "creating": "Creating your account...",
+      "repeatemail": "Repeat Email",
+      "repeatpass": "Repeat Password",
+      "typos": "to avoid typos",
+      "howadress": "How should we address you?",
+      "name": "Name",
+      "register": "Register",
+      "myprofile": "My Profile",
+      "logout": "Log Out",
+      "changepass": "Change Password",
+      "changeemail": "Change Email",
+      "startnew": "Start New Test",
+      "loadingprev": "Loading your previous results...",
+      "proffeedbtxt": "Any feedback about this page?<br>Or about any other part of the BDSM Test?",
+      "exansw": "Example answer:",
+      "loadingdata": "Loading your data...",
+      "removingclaim": "Removing your result...",
+      "addingclaim": "Adding your result...",
+      "enterearlier": "Got another result? Enter its ID below",
+      "enterearlier2": "(if your old result is https://bdsmtest.org/r/29gEr9,<br>then you write 29gEr9 in the box above)",
+      "welcome": "Welcome %name%!",
+      "resetpass": "Reset Password",
+      "correctemail": "If you made a typo in your email address, click below to return to the previous page.",
+      "return": "Return",
+      "registertitle": "Welcome, new user!",
+      "registerwelcome": "Please fill in the form below to create your account.",
+      "passforgotmailsenttitle": "Check your mailbox to continue",
+      "passforgotmailsent": "Got it! We sent you an email to restore your password. The link in this email is only valid for 24 hours, so don't wait too long!"
+    },
+    "archetypes": [
+      {
+        "name": "Ageplayer",
+        "pairdesc": "Ageplayers typically pair up with other ageplayers.",
+        "description": "Ageplayers like to play with age as part of their kink. They typically take on a much younger or older age than they actually are, or prefer playing with a partner that does so. Attributes and behavior changes (such as pacifiers, coloring books, speaking in more childlike language, etc.) are commonly paired with this, to enrich the context and make it more appropriate for the played age. Sexuality is not necessarily involved, and there is no link at all with pedophilia (which is simply not on the BDSM spectrum)."
+      },
+      {
+        "name": "All-rounder",
+        "description": "All-rounders have no specific preferences to either category. It doesn't matter who's in charge and who inflicts what on who, they all like it equally much. They have no other suitable category here.",
+        "pairdesc": "All-rounders typically match well with other all-rounders."
+      },
+      {
+        "name": "Brat",
+        "pairdesc": "Brats typically pair up with brat tamers.",
+        "description": "Brats are, in essence, naughty submissives. They find disobedience a form of playfulness rather than letting their dominant down, and require a compatible dominant who will not only teach them a lesson, but also accept that any number of lessons might still not necessarily change this behavior."
+      },
+      {
+        "name": "Brat tamer",
+        "pairdesc": "Brat Tamers typically pair up with brats.",
+        "description": "Brat tamers are, in essence, dominants who enjoy handling bratty submissives. They find disobedience a form of playfulness from the side of the submissive, rather than a form of rudeness. They will take no offence to it, but will still teach the sub a well deserved lesson (because, of course, that is why the bratty sub shows such behavior in the first place)."
+      },
+      {
+        "name": "Daddy/Mommy",
+        "pairdesc": "Daddies/Mommies typically pair up with girls/boys.",
+        "description": "Daddies/Mommies take on a caretaker role in the relationship, being a guide as much a dominant. Daddies/Mommies dominate their little treasure submissives with an iron fist in a velvet glove: much cuddly and affectionate on the outside, while being as sturdy and hard on the inside as other dominants. Using subtle psychological mechanisms rather than brute power, they nurture their littles into obedience. Sexuality is not necessarily involved, and there is no link at all with pedophilia (which is simply not on the BDSM spectrum)."
+      },
+      {
+        "name": "Degrader",
+        "pairdesc": "Degraders typically pair up with degradees.",
+        "description": "Degraders like to degrade and humiliate their play partner(s), either by acting upon them in a degrading way, or by or by forcing them to do things they consider degrading."
+      },
+      {
+        "name": "Dominant",
+        "pairdesc": "Dominants typically pair up with submissives.",
+        "description": "Dominants like to be in charge. Some like to have their partner obey them without questioning, others like some resistance while taking it their way. Some are dominant only in the bedroom, others are dominant throughout their daily life as well. Unlike the top roles (giving pain/bondage/degradation), being dominant is more about who decides what happens (and takes the responsibility that comes with it) than about the contents of what happens."
+      },
+      {
+        "name": "Degradee",
+        "pairdesc": "Degradees typically pair up with degraders.",
+        "description": "Degradees like to be degraded and humiliated by their play partner(s), either by being acted upon in a degrading way, or by being forced do things they consider degrading."
+      },
+      {
+        "name": "Fetishist",
+        "description": "Fetishists have a specific idea, situation, concept or object around which a large part of their sexual fantasies revolves. For some this is a necessity to get turned on, for others it's only an addition to the more classical turn-ons.",
+        "pairdesc": "Fetishists typically match well with other fetishists."
+      },
+      {
+        "name": "Boy/Girl",
+        "pairdesc": "Girls/boys typically pair up with daddies/mommies.",
+        "description": "Littles (girls/boys) are submissive spirits with a strong flavor childlike innocence. They long for a nurturing loving dominant who plays a guiding, almost parental role in their lives. While they require a softer approach to be dominated than most other submissives, their submission can be just as deep as that of other submissives or slaves. Sexuality is not necessarily involved, and there is no link at all with pedophilia (which is simply not on the BDSM spectrum)."
+      },
+      {
+        "name": "Masochist",
+        "pairdesc": "Masochists typically pair up with sadists.",
+        "description": "Masochists enjoy receiving (certain types of) pain from their partner(s), usually in a sexual context. Masochism is independent of pain tolerance: it is purely about the ability to enjoy (or get aroused by) certain levels of pain."
+      },
+      {
+        "name": "Master/Mistress",
+        "pairdesc": "Masters/Mistresses typically pair up with slaves.",
+        "description": "Masters/Mistresses receive complete control over the life of their slave(s), and all responsibilities that come with it. They go a step further than dominants in the sense that their power exchange is present 24/7 and in all aspects of their life (except for negotiated exceptions such as during their office jobs). Their primary focus is to create a stable and safe environment for their slave(s), to allow optimal servitude."
+      },
+      {
+        "name": "Non-monogamist",
+        "pairdesc": "Non-monogamists typically pair up with (several) other non-monogamists.",
+        "description": "Non-monogamists do not see sexuality as necessarily a 1 on 1 thing. Whether this means they will have several relationships or just see other people outside their relationship (or have even more exquisite constructions) depends entirely on the person and the situation, but they all have one thing in common: their sexuality is more than just between them and one fixed partner."
+      },
+      {
+        "name": "Owner",
+        "pairdesc": "Owners typically pair up with pets.",
+        "description": "Owners own pets/properties and take responsibility over them, on a 24/7 basis. Sexuality is not necessarily involved; in some cases role play attributes are also provided (e.g. a cage for the pet). There is no link at all with sex with animals (which is simply not on the BDSM spectrum), and many pets don't even feel like they're playing an animal, it's more about the typical relationship between an owner and a pet."
+      },
+      {
+        "name": "Pervert",
+        "description": "Perverts are sexual freethinkers, not afraid to set traditional views and ethics aside to do what their own value system tells them is best. Whether they prefer being the predator or the prey, they'll take the hunt to new extremes, and with their 'anything goes' mentality they will not let societal rules or expectations get in the way of their heart (or, for that matter, their genitals).",
+        "pairdesc": "Perverts typically match well with other perverts."
+      },
+      {
+        "name": "Primal",
+        "description": "Primals are mainly focused on their natural instincts and they enjoy letting their inner animal out during sex. The key part for primals play is that the participants show their raw, emotional sexual feelings during play. All of the labels, roles, and protocols go out the window, and the prey can become a snarling, growing, clawing animal hell-bent on getting away from its predator (where natural order will decide who is prey and who is predator).",
+        "pairdesc": "Primals typically match well with other primals."
+      },
+      {
+        "name": "Primal (Hunter)",
+        "pairdesc": "Hunters typically pair up with primal preys.",
+        "description": "Primals are mainly focused on their natural instincts and they enjoy letting their inner animal out during sex. The key part for primals play is that the participants show their raw, emotional sexual feelings during play. All of the labels, roles, and protocols go out the window, and the prey can become a snarling, growing, clawing animal hell-bent on getting away from its predator (you)."
+      },
+      {
+        "name": "Pet",
+        "pairdesc": "Pets typically pair up with owners.",
+        "description": "Pets are property of their owner in daily life. Sexuality is not necessarily involved; in some cases role play attributes are also provided (e.g. a cage for the pet). There is no link at all with sex with animals (which is simply not on the BDSM spectrum), and many pets don't even feel like they're playing an animal, it's more about the typical relationship between an owner and a pet."
+      },
+      {
+        "name": "Primal (Prey)",
+        "pairdesc": "Preys typically pair up with primal hunters.",
+        "description": "Primals are mainly focused on their natural instincts and they enjoy letting their inner animal out during sex. The key part for primals play is that the participants show their raw, emotional sexual feelings during play. All of the labels, roles, and protocols go out the window, and the prey (you) can become a snarling, growing, clawing animal hell-bent on getting away from its predator."
+      },
+      {
+        "name": "Rigger",
+        "pairdesc": "Riggers typically pair up with rope bunnies.",
+        "description": "Riggers like to tie up and restrain their partner(s), using rope and/or other attributes (chains, cuffs, spreader bars, etc.). Whether for sexual enhancement, for art or just for fun, they enjoy having their partners completely at their mercy."
+      },
+      {
+        "name": "Rope bunny",
+        "pairdesc": "Rope bunnies typically pair up with riggers.",
+        "description": "Rope bunny likes to be tied up and restrained, using rope and/or other attributes (chains, cuffs, spreader bars, etc.). Whether for sexual enhancement, for art or just for fun, they enjoy being totally at the mercy of their partner(s)."
+      },
+      {
+        "name": "Sadist",
+        "pairdesc": "Sadists typically pair up with masochists.",
+        "description": "Sadists enjoy inflicting (certain types of) pain on their partner(s), usually in a sexual context."
+      },
+      {
+        "name": "Slave",
+        "pairdesc": "Slaves typically pair up with masters/mistresses.",
+        "description": "Slaves completely hand over the control and responsibilities over their life to their master/mistress. They go a step further than submissives in the sense that their power exchange is present 24/7 and in all aspects of their life (except for negotiated exceptions such as during their office jobs). Serving their master/mistress is their primary focus in life and they rarely have limits for them."
+      },
+      {
+        "name": "Submissive",
+        "pairdesc": "Submissives typically pair up with dominants.",
+        "description": "Submissives like to follow. Some like to give the control away to their partner(s), some like to have it forcibly taken from them. Some are submissive only in the bedroom, others are submissive throughout their daily life as well (usually with limitations). Unlike the bottom roles (receiving pain/bondage/degradation), being submissive is more about who decides what happens (and takes the responsibility that comes with it) than about the contents of what happens."
+      },
+      {
+        "name": "Switch",
+        "pairdesc": "Switches typically pair up with other switches.",
+        "description": "Switches like to... well, switch. Always taking a dominant or top position is not for them, neither is always taking a submissive or bottom position. Some prefer to switch with the same partner or partners, others have a dominant play partner and a submissive play partner, but in either case they do not fit on one end point of the spectrum."
+      },
+      {
+        "name": "Vanilla",
+        "pairdesc": "Vanillas typically pair up with other vanillas.",
+        "description": "Vanilla people enjoy regular, standard sex and relationship models. Nothing wrong with that, as long as you're having fun!"
+      },
+      {
+        "name": "Voyeur",
+        "pairdesc": "Voyeurs typically pair up with exhibitionists.",
+        "description": "Voyeurs enjoy watching the nakedness or sexual activity of other people. Consensually, of course."
+      },
+      {
+        "name": "Exhibitionist",
+        "pairdesc": "Exhibitionists typically pair up with voyeurs.",
+        "description": "Exhibitionists enjoy showing their naked body or a sexual activity to other people. Consensually, of course."
+      },
+      {
+        "name": "Experimentalist",
+        "pairdesc": "Experimentalists typically pair up with other experimentalists.",
+        "description": "Experimentalists want to have tried it all. An open mind and an insatiable curiosity are their key features, and they will rarely form an opinion before they have gathered first hand experience. They often have plenty of fantasies and will actively pursue to try them out."
+      }
+    ]
+  },
+  "static-pages": {
+    "about": "About us",
+    "contact": "Contact",
+    "info": "BDSM Info",
+    "arch": "BDSM Archetypes",
+    "faq": {
+      "title": "FAQ",
+      "q-and-as": [
+        {
+          "question": "How do I copy the results to my profile, blog, etc.?",
+          "answer": "The buttons below your results, copy your results to the clipboard of your computer/phone. To paste on your blog, profile or any other text field, do the following. On your computer: right click on any text field and click 'Paste'. On your phone, hold your finger down on the text field for a few seconds, a paste button should appear."
+        },
+        {
+          "question": "My results are incorrect or I'm not happy about them!",
+          "answer": "Most of the time, this is because you misread an important question for that archetype. Other times, it is because you have a different idea of what the archetype entails. Which is not a problem at all, you know yourself best and you do what makes you happy!"
+        },
+        {
+          "question": "Some questions/archetypes changed/disappeared!",
+          "answer": "Correct. We are continuously improving the quality of our questions and archetypes, and if we see that a prediction is not of good quality (as was the case with the Vanilla archetype) then we remove it until we can guarantee the quality of the prediction."
+        },
+        {
+          "question": "I got different questions than my friends. Why?",
+          "answer": "We are currently experimenting with individualized questions, so that we don't have to bother light kinksters with extreme questions, or pure dominants with submissive questions and vice versa. Don't worry, your result is not any less reliable than theirs. :-)"
+        }
+      ]
+    },
+    "bdsmtestabout": "The BDSM Test is a fun and educational test to determine what kind of kinkster you are. It was founded in 2014 with as its main mission to make a simple, accessible test to help beginning kinksters determine which labels are or aren't suitable for them; and to be a fun experience for everyone taking it, beginners and experts alike.",
+    "bdsmtestcontact": "Community feedback has always been a key element of our approach, and we greatly appreciate any feedback you may have (in English!), using the form below. Please note that we do not send out individual responses; if you want a reply or have an urgent issue to report, and the FAQ below doesn't answer your question, please use email instead.",
+    "bdsmtestinfo1": "BDSM is an umbrella term for a variety of (often erotic) practices or roleplaying; it is an acronym representing three components:",
+    "bdsmtestinfoBD": "BD: Bondage &amp; Discipline (playing with physical restraints, training, punishment, etc.)",
+    "bdsmtestinfoDS": "DS: Dominance &amp; Submission (playing with obedience, power exchange, service, humility, etc.)",
+    "bdsmtestinfoSM": "SM: Sadism &amp; Masochism (playing with pain, degradation, fear, etc.)",
+    "bdsmtestinfo2": "More often than not, other 'deviant' sexual practices are also considered to be part of BDSM.",
+    "bdsmtestinfoConsent": "BDSM is a consensual activity respecting the fundamental rights of every human being involved; this separates it from sexual and domestic abuse.",
+    "bdsmtestinfoArchetypes": "Everyone is different, and finding two kinksters with the exact same preferences is probably impossible. There are however a few common 'archetypes' that people can identify with to varying degrees (from 0% to 100%). Curious to what extent each archetype suits you? Take the test! The list below is by no means complete but it should cover the most common ones."
+  },
+  "errors": {
+    "diffemails": "You need to enter the same email address twice or select 'No'. You entered '%em1%' and '%em2%' on the question ''%q%''.",
+    "invalidem1": "You need to enter a valid email address or select 'No'. You entered '%em1%' the first time on the question ''%q%''.",
+    "invalidem2": "You need to enter a valid email address or select 'No'. You entered '%em2%' the second time on the question ''%q%''.",
+    "erruauth": "Error authenticating in; we will have to log you out for safety reasons.",
+    "erruauthold": "Tried logging it with data from before your password change; we have cleared this data for safety reasons.",
+    "errrauth": "Error verifying that this is your result. Sorry, you'll have to start over.",
+    "versionnotfound": "Could not find this version number. Please try again later or contact us if this persists.",
+    "prelimsnotfound": "Could not find the preliminaries. Please try again later or contact us if this persists.",
+    "recaptchafail": "There was an error checking that you're not a robot. Please try again.",
+    "langnotfound": "Could not find this language. Please try again later or contact us if this persists.",
+    "loginfail": "This email/password combination is not correct. Please double-check that you entered both correctly.",
+    "invalidemail": "Please enter valid data in all fields.",
+    "invalidpassword": "Please enter a password.",
+    "invalidname": "Please enter a valid (nick)name.",
+    "erranon": "Please login to access this page.",
+    "alreadyclaimed": "This result is already in the list, no need to add it twice.",
+    "entrytypo": "Could not find this result entry. Please double-check your input or contact us if this persists.",
+    "entrynotfound": "Could not find your entry. Please try again later or contact us if this persists.",
+    "questionsnotfound": "Could not find the questions. Please try again later or contact us if this persists.",
+    "entrycompleted": "This entry is completed. We will redirect you to the result page shortly.",
+    "archsnotfound": "Error fetching archetypes. Please try again later or contact us if this persists.",
+    "emailnotfound": "Could not find a user with that email address. Are you sure you typed that correctly?",
+    "linkexpired": "The link you are using has expired. Please start over and request a new temporary access link.",
+    "saltnotfound": "Could not retrieve the data you requested. Perhaps you already changed your password?",
+    "toomanyerrors": "You have encountered over 100 errors since your last successful communication with the server. For safety reasons we have terminated your quiz experience. If this problem persists, please contact us at bdsmtest.org@gmail.com.",
+    "passforgotnosuchemail": "Well, no wonder you forgot your password, since we don't have that email address on file. Either you made a typo in the address, or you can safely register a new account on it.",
+    "emailerrorhasspaces": "%% is not a valid email address as it contains spaces. Please correct this or select 'No' to not receive emails.",
+    "emailerrorinvalid": "%% is not a valid email address. Please correct this or select 'No' to not receive emails.",
+    "emailerroroneempty": "Both fields need to contain your email address. Please enter the same address in both fields or select 'No' to not receive emails about this.",
+    "emailerrordifferent": "You wrote different email addresses in both fields. Did you make a typo perhaps? You need to enter the same email address twice.",
+    "errnohuman": "Google could not verify that you are human. You probably waited too long to start the test. Please try again.",
+    "errloginnotfound": "We could not find that email address. Please try again without typos (or, alternatively, register an account on this email address instead).",
+    "errloginwrong": "Incorrect password. Please try again with the correct password.",
+    "errreginvalidmail": "The email address you entered is not a valid email address. Please use a valid email address.",
+    "errregmailexists": "The email address you entered is already in use. Please use the login form to access your account.",
+    "errnoauth": "Uhh... something went wrong. We just did a big update and we're still sorting out some bugs, so if this problem persists, please contact us at bdsmtest.org@gmail.com and tell us what you did to get here. Thanks!",
+    "unknownerror": "An unknown error occurred. Please contact bdsmtest.org@gmail.com if this problem persists.",
+    "timeout": "Connection timed out, please check your internet connection; if all else fails please try again in a few minutes.",
+    "emptystring": "The server unexpectedly returned an empty answer. Please contact bdsmtest.org@gmail.com if this problem persists.",
+    "parsererror": "The server unexpectedly returned the following answer. Please contact bdsmtest.org@gmail.com if this problem persists.",
+    "error500": "We are experiencing technical difficulties. Please leave this tab open and try again in a few minutes. If the problem persists, please contact us at bdsmtest.org@gmail.com.",
+    "error501": "Your request triggered a database error. Please contact us at bdsmtest.org@gmail.com to report this, and give us the number #%ID%. Meanwhile, it is advisable to leave this tab open so you don't lose your current answers.",
+    "error503": "We are temporarily down for maintenance. Don't worry, your work is not lost, just leave this tab open and come back in a few moments.",
+    "downtime": "Expected duration of maintenance: %m% minutes",
+    "samepasswtice": "Please enter the same password twice.",
+    "browsernocopy": "Your browser does not support automatic copying. We will select the text for you so you can manually copy it.",
+    "badrouting": "Could not route your link %url%. Unless you typed this manually and made a typo, please contact bdsmtest.org@gmail.com to report this.",
+    "resultnotfound": "Uh-oh. That result doesn't exist. Please contact us at bdsmtest.org@gmail.com and tell us how you got here, we'll see what we can do to fix it.",
+    "connectionissues": "Could not connect to the internet and thus not to the BDSM Test website. Please check your internet connection and try again."
   }
 }
