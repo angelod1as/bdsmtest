@@ -28,7 +28,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   return {
     props: {
-      messages: await getMessages(["pages.info"], locale),
+      messages: await getMessages(["pages.info", "archetypes"], locale),
     },
   }
 }
