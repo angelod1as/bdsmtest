@@ -2,9 +2,9 @@
   "common": {
     "head": {
       "title": "BDSM test",
-      "description": ""
+      "description": "Let's test the kink out of you!"
     },
-    "quiztitle": "Let's test the kink out of you!",
+    "title": "Let's test the kink out of you!",
     "navigation": {
       "start-new-test": "Start new BDSM Test!",
       "login-register": "Log In / Register",
