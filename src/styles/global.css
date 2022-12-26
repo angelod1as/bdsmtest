@@ -6,5 +6,39 @@ html,
 body,
 #__next {
   /* To fill every space available */
-  @apply flex flex-col min-h-screen;
+  @apply flex flex-col min-h-screen leading-7;
 }
+
+/*
+  Please prefix any custom element with "custom"
+  to avoid clashing with Tailwind
+*/
+.custom-box {
+  @apply rounded border border-lightgray p-3 flex flex-col
+}
+
+.custom-box-default {
+  @apply flex flex-col rounded border-lightgray
+}
+
+.custom-outer-box {
+  @apply
+    custom-box-default
+    border-2 p-6
+}
+
+.custom-inner-box {
+  @apply
+    custom-box-default
+    border p-3
+    text-lightergray
+}
+
+ul {
+  @apply my-2
+}
+
+li {
+  @apply list-disc ml-[1rem] my-2
+}
+
