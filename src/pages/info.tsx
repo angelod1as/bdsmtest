@@ -5,15 +5,14 @@ import { InfoPage } from "components/pages/info/Info"
 import { getMessages } from "i18n/get-messages"
 
 const Info: NextPage = () => {
-  const head = useTranslations("common.head")
+  const headT = useTranslations("common.head")
   const t = useTranslations("pages.info")
+  const title = `${headT("title")} - ${t("head.title")}`
 
   return (
     <div>
       <Head>
-        <title>
-          {head("title")} - {t("head.title")}
-        </title>
+        <title>{title}</title>
         <meta name="description" content={t("head.description")} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
