@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
-  extends: ["next", "next/core-web-vitals"],
-  plugins: ["unused-imports"],
+  plugins: ["unused-imports", "lodash"],
+  extends: ["next", "next/core-web-vitals", "plugin:lodash/recommended"],
   rules: {
     "react/react-in-jsx-scope": "off",
     "no-unused-vars": "off",
@@ -21,5 +21,6 @@ module.exports = {
         ignoreDeclarationSort: true,
       },
     ],
+    "lodash/prefer-lodash-method": [2, { ignoreMethods: ["map"] }],
   },
 }
