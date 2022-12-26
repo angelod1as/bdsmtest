@@ -5,8 +5,8 @@ import { Header } from "./header/Header"
 
 export const Default: FCC = ({ children }) => {
   return (
-    <div className="h-full text-white bg-black">
-      <div className="flex flex-col h-full max-w-lg m-auto">
+    <div className="flex flex-col h-full text-white bg-black grow">
+      <div className="flex flex-col h-full max-w-lg m-auto grow">
         <Header />
         <div className="flex-grow">{children}</div>
         <Footer />
