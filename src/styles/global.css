@@ -9,6 +9,11 @@ body,
   @apply flex flex-col min-h-screen leading-7;
 }
 
+/* Tailwind does not ships small-caps */
+.small-caps {
+  font-variant: small-caps;
+}
+
 /*
   Please prefix any custom element with "custom"
   to avoid clashing with Tailwind
