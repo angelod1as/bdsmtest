@@ -1,5 +1,4 @@
 import { Box } from "components/Box"
-import { parseRichText } from "i18n/parse-rich-text"
 import { useTranslations } from "next-intl"
 import React from "react"
 
@@ -43,12 +42,12 @@ export const InfoPage = () => {
     <Box type="outer">
       {/* Info box */}
       <Box type="inner" title={t("info.title")}>
-        {t.rich("info.rich-text-content", parseRichText)}
+        {t.rich("info.rich-text-content")}
       </Box>
 
       {/* Archetypes box */}
       <Box type="inner" title={t("archetypes.title")}>
-        {t.rich("archetypes.rich-text-content", parseRichText)}
+        {t.rich("archetypes.rich-text-content")}
       </Box>
 
       {archetypes.map((archetype) => {

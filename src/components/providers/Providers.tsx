@@ -1,3 +1,4 @@
+import { parseRichText } from "i18n/parse-rich-text"
 import { NextIntlProvider } from "next-intl"
 import { PageProps } from "pages/_app"
 import React from "react"
@@ -10,7 +11,11 @@ type ProvidersProps = {
 
 export const Providers: FCC<ProvidersProps> = ({ children, pageProps }) => {
   return (
-    <NextIntlProvider messages={pageProps.messages} timeZone="Etc/Universal">
+    <NextIntlProvider
+      messages={pageProps.messages}
+      timeZone="Etc/Universal"
+      defaultTranslationValues={parseRichText}
+    >
       <IntlPolyfills />
       {children}
     </NextIntlProvider>
