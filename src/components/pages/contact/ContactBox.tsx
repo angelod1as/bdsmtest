@@ -19,6 +19,10 @@ export const ContactBox = () => {
 
   // Must be async
   const handleSubmit = async (values: FormProps) => {
+    // No need to sanitize
+    // https://reactjs.org/docs/introducing-jsx.html#jsx-prevents-injection-attacks
+
+    // TODO: store information on server
     console.log(values, "submitted")
   }
 

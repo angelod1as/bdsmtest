@@ -28,7 +28,7 @@
         "title": "Contact",
         "rich-text-content": "<p>Community feedback has always been a key element of our approach, and we greatly appreciate any feedback you may have (in English!), using the form below. Please note that we do not send out individual responses; if you want a reply or have an urgent issue to report, and the FAQ below doesn't answer your question, please use email instead: <EmailLink></EmailLink></p>",
         "form-title": "Send us a message!",
-        "submitted": "Thanks for submitting!",
+        "submitted": "Feedback successfully stored!",
         "submit": "Submit"
       },
       "faq": {
