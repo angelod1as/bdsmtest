@@ -15,11 +15,47 @@
     }
   },
   "pages": {
-    "about": {},
-    "info": {
+    "contact": {
       "head": {
         "title": "BDSM Info & Archetypes",
         "description": ""
+      },
+      "about": {
+        "title": "About us",
+        "rich-text-content": "<p>The BDSM Test is a fun and educational test to determine what kind of kinkster you are. It was founded in 2014 with as its main mission to make a simple, accessible test to help beginning kinksters determine which labels are or aren't suitable for them; and to be a fun experience for everyone taking it, beginners and experts alike.</p>"
+      },
+      "contact": {
+        "title": "Contact",
+        "rich-text-content": "<p>Community feedback has always been a key element of our approach, and we greatly appreciate any feedback you may have (in English!), using the form below. Please note that we do not send out individual responses; if you want a reply or have an urgent issue to report, and the FAQ below doesn't answer your question, please use email instead: <EmailLink></EmailLink></p>",
+        "form-title": "Send us a message!",
+        "submitted": "Thanks for submitting!"
+      },
+      "faq": {
+        "title": "FAQ",
+        "content": [
+          {
+            "question": "How do I copy the results to my profile, blog, etc.?",
+            "answer": "The buttons below your results, copy your results to the clipboard of your computer/phone. To paste on your blog, profile or any other text field, do the following. On your computer: right click on any text field and click 'Paste'. On your phone, hold your finger down on the text field for a few seconds, a paste button should appear."
+          },
+          {
+            "question": "My results are incorrect or I'm not happy about them!",
+            "answer": "Most of the time, this is because you misread an important question for that archetype. Other times, it is because you have a different idea of what the archetype entails. Which is not a problem at all, you know yourself best and you do what makes you happy!"
+          },
+          {
+            "question": "Some questions/archetypes changed/disappeared!",
+            "answer": "Correct. We are continuously improving the quality of our questions and archetypes, and if we see that a prediction is not of good quality (as was the case with the Vanilla archetype) then we remove it until we can guarantee the quality of the prediction."
+          },
+          {
+            "question": "I got different questions than my friends. Why?",
+            "answer": "We are currently experimenting with individualized questions, so that we don't have to bother light kinksters with extreme questions, or pure dominants with submissive questions and vice versa. Don't worry, your result is not any less reliable than theirs. :-)"
+          }
+        ]
+      }
+    },
+    "info": {
+      "head": {
+        "title": "BDSM Info & Archetypes",
+        "description": "What is BDSM and what are the archetypes used in this test?"
       },
       "info": {
         "title": "BDSM Info",
@@ -299,35 +335,6 @@
       "passforgotmailsenttitle": "Check your mailbox to continue",
       "passforgotmailsent": "Got it! We sent you an email to restore your password. The link in this email is only valid for 24 hours, so don't wait too long!"
     }
-  },
-  "static-pages": {
-    "about": "About us",
-    "contact": "Contact",
-    "info": "BDSM Info",
-    "arch": "BDSM Archetypes",
-    "faq": {
-      "title": "FAQ",
-      "q-and-as": [
-        {
-          "question": "How do I copy the results to my profile, blog, etc.?",
-          "answer": "The buttons below your results, copy your results to the clipboard of your computer/phone. To paste on your blog, profile or any other text field, do the following. On your computer: right click on any text field and click 'Paste'. On your phone, hold your finger down on the text field for a few seconds, a paste button should appear."
-        },
-        {
-          "question": "My results are incorrect or I'm not happy about them!",
-          "answer": "Most of the time, this is because you misread an important question for that archetype. Other times, it is because you have a different idea of what the archetype entails. Which is not a problem at all, you know yourself best and you do what makes you happy!"
-        },
-        {
-          "question": "Some questions/archetypes changed/disappeared!",
-          "answer": "Correct. We are continuously improving the quality of our questions and archetypes, and if we see that a prediction is not of good quality (as was the case with the Vanilla archetype) then we remove it until we can guarantee the quality of the prediction."
-        },
-        {
-          "question": "I got different questions than my friends. Why?",
-          "answer": "We are currently experimenting with individualized questions, so that we don't have to bother light kinksters with extreme questions, or pure dominants with submissive questions and vice versa. Don't worry, your result is not any less reliable than theirs. :-)"
-        }
-      ]
-    },
-    "bdsmtestabout": "The BDSM Test is a fun and educational test to determine what kind of kinkster you are. It was founded in 2014 with as its main mission to make a simple, accessible test to help beginning kinksters determine which labels are or aren't suitable for them; and to be a fun experience for everyone taking it, beginners and experts alike.",
-    "bdsmtestcontact": "Community feedback has always been a key element of our approach, and we greatly appreciate any feedback you may have (in English!), using the form below. Please note that we do not send out individual responses; if you want a reply or have an urgent issue to report, and the FAQ below doesn't answer your question, please use email instead."
   },
   "errors": {
     "diffemails": "You need to enter the same email address twice or select 'No'. You entered '%em1%' and '%em2%' on the question ''%q%''.",
