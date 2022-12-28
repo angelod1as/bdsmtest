@@ -44,7 +44,7 @@ export const ContactBox = () => {
               <p>{t("contact.submitted")}</p>
             ) : (
               <Button type="submit" disabled={isSubmitting}>
-                Submit
+                {t("contact.submit")}
               </Button>
             )}
           </Form>
