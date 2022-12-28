@@ -1,9 +1,9 @@
 import { clx } from "helpers/clx"
 import React from "react"
 import { FCC } from "types/types"
-import { H2, H3 } from "./typography/typography"
+import { H2, H3, H4 } from "./typography/typography"
 
-type Level = 2 | 3
+type Level = 2 | 3 | 4
 
 type BoxProps = {
   type: "inner" | "outer"
@@ -32,12 +32,26 @@ export const Box: FCC<BoxProps> = ({
 
   return (
     <div className="flex flex-col gap-3">
-      {title && level === 2 && <H2>{title}</H2>}
-
+      {level === 2 && <Header level={level} title={title} />}
       <div className={clx(style, className)}>
-        {title && level === 3 && <H3>{title}</H3>}
+        {level > 2 && <Header level={level} title={title} />}
         {children}
       </div>
     </div>
   )
+}
+
+const Header: FCC<{ title?: string; level: Level }> = ({ title, level }) => {
+  // Extracted to be expandable
+  if (!title) return null
+  switch (level) {
+    case 2:
+      return <H2>{title}</H2>
+    case 3:
+      return <H3>{title}</H3>
+    case 4:
+      return <H4>{title}</H4>
+    default:
+      return null
+  }
 }
