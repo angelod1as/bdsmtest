@@ -5,6 +5,7 @@
       "description": "Let's test the kink out of you!"
     },
     "title": "Let's test the kink out of you!",
+    "not-found": "404 - Page not found",
     "navigation": {
       "start-new-test": "Start new BDSM Test!",
       "login-register": "Log In / Register",
@@ -154,7 +155,7 @@
     "switch": {
       "name": "Switch",
       "pairdesc": "Switches typically pair up with other switches.",
-      "description": "Switches like to... well, switch. Always taking a dominant or top position is not for them, neither is always taking a submissive or bottom position. Some prefer to switch with the same partner or partners, others have a dominant play partner and a submissive play partner, but in either case they do not fit on one end point of the spectrum."
+      "description": "Switches like to... well, switch. Always taking a dominant or top position is 1r them, neither is always taking a submissive or bottom position. Some prefer to switch with the same partner or partners, others have a dominant play partner and a submissive play partner, but in either case they do not fit on one end point of the spectrum."
     },
     "vanilla": {
       "name": "Vanilla",
