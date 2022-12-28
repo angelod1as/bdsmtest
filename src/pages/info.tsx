@@ -14,7 +14,6 @@ const Info: NextPage = () => {
       <Head>
         <title>{title}</title>
         <meta name="description" content={t("head.description")} />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <InfoPage />
