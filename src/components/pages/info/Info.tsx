@@ -1,4 +1,5 @@
-import { H2, H3 } from "components/typography/typography"
+import { Box } from "components/Box"
+import { H3 } from "components/typography/typography"
 import { parseRichText } from "i18n/parse-rich-text"
 import { useTranslations } from "next-intl"
 import React from "react"
@@ -40,38 +41,29 @@ export const InfoPage = () => {
   const archetypeTranslations = useTranslations("archetypes")
 
   return (
-    <div className="gap-8 p-6 custom-outer-box">
+    <Box type="outer">
       {/* Info box */}
-      <div className="flex flex-col gap-3">
-        <H2 className="">{t("info.title")}</H2>
-        <div className="custom-inner-box">
-          {t.rich("info.rich-text-content", parseRichText)}
-        </div>
-      </div>
+      <Box type="inner" title={t("info.title")}>
+        {t.rich("info.rich-text-content", parseRichText)}
+      </Box>
 
       {/* Archetypes box */}
-      <div className="flex flex-col gap-3">
-        <H2>{t("archetypes.title")}</H2>
-        <div className="custom-inner-box">
-          {t.rich("archetypes.rich-text-content", parseRichText)}
-        </div>
-        {archetypes.map((archetype) => {
-          const name = `${archetype}.name`
-          const description = `${archetype}.description`
-          return (
-            <div key={archetype} className="custom-inner-box">
-              {/* Typescript is ignored below because of the lack of types
-                to typecast name and description. An issue was opened.
-                https://github.com/amannn/next-intl/issues/159
-              */}
-              {/* @ts-ignore */}
-              <H3>{archetypeTranslations(name)}</H3>
-              {/* @ts-ignore */}
-              <p>{archetypeTranslations(description)}</p>
-            </div>
-          )
-        })}
-      </div>
-    </div>
+      <Box type="inner" title={t("archetypes.title")}>
+        {t.rich("archetypes.rich-text-content", parseRichText)}
+      </Box>
+
+      {archetypes.map((archetype) => {
+        // typescasting below because of lack of types. See discussion below:
+        // https://github.com/amannn/next-intl/discussions/160
+        const name = `${archetype}.name` as any
+        const description = `${archetype}.description` as any
+        return (
+          <div key={archetype} className="custom-inner-box">
+            <H3>{archetypeTranslations(name)}</H3>
+            <p>{archetypeTranslations(description)}</p>
+          </div>
+        )
+      })}
+    </Box>
   )
 }
