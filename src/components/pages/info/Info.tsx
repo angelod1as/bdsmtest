@@ -1,6 +1,4 @@
 import { Box } from "components/Box"
-import { H3 } from "components/typography/typography"
-import { parseRichText } from "i18n/parse-rich-text"
 import { useTranslations } from "next-intl"
 import React from "react"
 
@@ -44,12 +42,12 @@ export const InfoPage = () => {
     <Box type="outer">
       {/* Info box */}
       <Box type="inner" title={t("info.title")}>
-        {t.rich("info.rich-text-content", parseRichText)}
+        {t.rich("info.rich-text-content")}
       </Box>
 
       {/* Archetypes box */}
       <Box type="inner" title={t("archetypes.title")}>
-        {t.rich("archetypes.rich-text-content", parseRichText)}
+        {t.rich("archetypes.rich-text-content")}
       </Box>
 
       {archetypes.map((archetype) => {
@@ -58,10 +56,14 @@ export const InfoPage = () => {
         const name = `${archetype}.name` as any
         const description = `${archetype}.description` as any
         return (
-          <div key={archetype} className="custom-inner-box">
-            <H3>{archetypeTranslations(name)}</H3>
+          <Box
+            key={archetype}
+            type="inner"
+            title={archetypeTranslations(name)}
+            level={3}
+          >
             <p>{archetypeTranslations(description)}</p>
-          </div>
+          </Box>
         )
       })}
     </Box>

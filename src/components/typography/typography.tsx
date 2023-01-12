@@ -15,3 +15,7 @@ export const H2: FCC<JSX.IntrinsicElements["h2"]> = (props) => {
 export const H3: FCC<JSX.IntrinsicElements["h3"]> = (props) => {
   return <h3 {...props} className={clx(props.className, commonProps)} />
 }
+
+export const H4: FCC<JSX.IntrinsicElements["h3"]> = (props) => {
+  return <h3 {...props} className={clx(props.className, "font-bold")} />
+}
