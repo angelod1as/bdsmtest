@@ -2,6 +2,8 @@ import { Box } from "components/Box"
 import { Button } from "components/Button"
 import { Input } from "components/Input"
 import { Form, Formik } from "formik"
+import { callApi } from "helpers/callApi"
+import { ROUTES } from "helpers/routes"
 import { useTranslations } from "next-intl"
 import React from "react"
 import * as yup from "yup"
@@ -19,11 +21,14 @@ export const ContactBox = () => {
 
   // Must be async
   const handleSubmit = async (values: FormProps) => {
-    // No need to sanitize
-    // https://reactjs.org/docs/introducing-jsx.html#jsx-prevents-injection-attacks
-
-    // TODO: store information on server
-    console.log(values, "submitted")
+    try {
+      await callApi.post({
+        url: ROUTES.api.contact,
+        body: values,
+      })
+    } catch (error) {
+      console.log(error)
+    }
   }
 
   return (
