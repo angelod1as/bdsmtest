@@ -1,7 +1,7 @@
 import { Box } from "components/Box"
 import { Button } from "components/Button"
 import { Input } from "components/Input"
-import { Form, Formik } from "formik"
+import { Form, Formik, FormikHelpers } from "formik"
 import { callApi } from "helpers/callApi"
 import { ROUTES } from "helpers/routes"
 import { useTranslations } from "next-intl"
@@ -20,14 +20,18 @@ export const ContactBox = () => {
   })
 
   // Must be async
-  const handleSubmit = async (values: FormProps) => {
+  const handleSubmit = async (
+    values: FormProps,
+    formikHelpers: FormikHelpers<FormProps>,
+  ) => {
     try {
       await callApi.post({
         url: ROUTES.api.contact,
         body: values,
       })
     } catch (error) {
-      console.log(error)
+      console.error(error)
+      formikHelpers.setErrors({ content: t("contact.error") })
     }
   }
 
