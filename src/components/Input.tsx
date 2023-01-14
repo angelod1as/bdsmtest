@@ -6,9 +6,17 @@ type InputProps = JSX.IntrinsicElements["input"] &
     name: string
     label: string
     error?: string
-    type?: JSX.IntrinsicElements["input"]["type"] | "textarea"
+    type?: Omit<
+      JSX.IntrinsicElements["input"]["type"] | "textarea",
+      "radio" | "checkbox"
+    >
   }
 
+/**
+ * Generic Input component
+ * Mainly used for text or textarea input
+ * for radio and checkbox, use respective components instead
+ */
 export const Input: FCC<InputProps> = ({
   name,
   label,
