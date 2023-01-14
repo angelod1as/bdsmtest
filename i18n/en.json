@@ -15,6 +15,16 @@
     }
   },
   "pages": {
+    "index": {
+      "title": "Welcome to the BDSM Test!",
+      "account": "We'll begin testing your kinkiness shortly. Would you like us to help you track your evolution over time with a free account?",
+      "form": {
+        "anonymous": "No, I want to start the test anonymously now.",
+        "login": "Yes, take me to the login/register page.",
+        "submit": "Next"
+      },
+      "disclaimer": "By using this website you confirm that you are 18+. <br></br> Don't know what BDSM is? Please read the <Link>info pages</Link> first."
+    },
     "contact": {
       "head": {
         "title": "BDSM Info & Archetypes",

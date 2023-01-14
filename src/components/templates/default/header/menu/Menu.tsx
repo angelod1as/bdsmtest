@@ -4,7 +4,7 @@ import { MenuButton } from "./MenuButton"
 const menuItems = [
   {
     label: "Start new BDSM test",
-    url: "/select-mode",
+    url: "/",
   },
   {
     label: "Log In / Register",

@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+  Attention: use NextJS support module css instead of adding custom styles,
+  unless they are truly global — for every element in every page.
+*/
+
 html,
 body,
 #__next {
@@ -9,18 +14,17 @@ body,
   @apply flex flex-col min-h-screen leading-7;
 }
 
-/* Tailwind does not ships small-caps */
+/*
+  Prefer Styled-JSX (see decision 0003) for custom and complex CSS
+*/
+
+/* Tailwind does not ship small-caps */
 .small-caps {
   font-variant: small-caps;
 }
 
 /*
-  Please prefix any custom element with "custom"
-  to avoid clashing with Tailwind
-  eg:
-  .custom-class-name {
-    ...
-  }
+  Default element rules
 */
 
 ul {

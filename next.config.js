@@ -9,6 +9,15 @@ const nextConfig = {
     localeDetection: true,
   },
   env: {},
+  async redirects() {
+    return [
+      {
+        source: "/select-mode",
+        destination: "/",
+        permanent: true,
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig
