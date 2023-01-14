@@ -56,7 +56,7 @@ export const ContactBox = () => {
             {submitCount > 0 ? (
               <p>{t("contact.submitted")}</p>
             ) : (
-              <Button type="submit" disabled={isSubmitting}>
+              <Button variant="secondary" type="submit" disabled={isSubmitting}>
                 {t("contact.submit")}
               </Button>
             )}
