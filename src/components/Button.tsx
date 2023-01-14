@@ -8,7 +8,7 @@ type ButtonProps = JSX.IntrinsicElements["button"] & {
 
 export const Button: FCC<ButtonProps> = ({ variant = "primary", ...props }) => {
   const className = {
-    primary: "bg-cyan-700 text-white",
+    primary: "bg-blue text-white",
     secondary: "bg-darkgray border-lightgray",
   }[variant]
 
