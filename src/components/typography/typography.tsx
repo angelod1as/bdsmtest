@@ -2,7 +2,7 @@ import { clx } from "helpers/clx"
 import React from "react"
 import { FCC } from "types/types"
 
-const commonProps = "text-center font-bold"
+const commonProps = "text-center font-bold text-white"
 
 export const H1: FCC<JSX.IntrinsicElements["h1"]> = (props) => {
   return <h1 {...props} className={clx(props.className, commonProps)} />
