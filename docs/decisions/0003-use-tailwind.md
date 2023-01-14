@@ -11,13 +11,13 @@ deciders: @angelod1as
 
 ## Context and Problem Statement
 
-[TailwindCSS](https://tailwindcss.com/) offers a utility-first approach to CSS. With it:
+We need to choose a method of writing our CSS and styling our application. With a plethora of tools available, falling back to native CSS has massive drawbacks, so we should choose a better alternative.
 
 ## Decision Drivers
 
 A traditional CSS approach has time-consuming workflows and decisions that take too long and are complex to get to a common point — for instance, deciding on a naming convention, or making sure the class names won't clash between different components.
 
-TailwindCSS has a different approach. With it:
+[TailwindCSS](https://tailwindcss.com/) has a different approach. With it:
 
 * development moves fast — more time on markup and less on stylesheet files
 * we can be sure the outputted CSS files on build will only have the utilized styles
@@ -35,7 +35,7 @@ It is a debatable decision — as any — especially when comparing its pros and
 
 ## Decision Outcome
 
-Chosen option: "TailwindCSS", because of the concerns previously stated.
+Chosen option: **TailwindCSS**, because of the concerns previously stated, with **Styled-JSX** as fallback when styles are too complex to be handled by TailwindCSS.
 
 ## Pros and Cons of the Options
 
@@ -46,6 +46,14 @@ Chosen option: "TailwindCSS", because of the concerns previously stated.
 * Bad: mixing of styling and markup in the same file
 * Bad: verbose classnames — they can get huge
 * Bad: some learning curve
+
+### Styled-JSX
+
+* Good: scoped CSS make sure things don't clash
+* Good: bundled with NextJS by default
+* Good: good performance: only the components on screen are styled (no  extra unused styles in a CSS file)
+* Bad: some learning curve
+* Bad: no autocompletion
 
 ### Vanilla CSS
 
@@ -62,16 +70,10 @@ Chosen option: "TailwindCSS", because of the concerns previously stated.
 * Bad: modules not always work as they should — making the use of workarounds constant
 * Bad: tools like naming helpers require too much boilerplate and constant code repetition
 
-### Styled-JSX
-
-* Good: scoped CSS make sure things don't clash
-* Good: good performance: only the components on screen are styled (no  extra unused styles in a CSS file)
-* Bad: some learning curve
-
 ## More Information
 
 In the @angelod1as' (the current maintainer) opinion, Styled-JSX is a great competitor in this project. It is really good and, in the end, it's just CSS-in-JS, so you can have the best of both worlds.
 
 But, in the matter of speed, TailwindCSS wins. It's faster to write and test, the DX is amazing — you don't need to write a single CSS line most of the times — and the output is a plain CSS file with only the necessary inside.
 
-@angelod1as is open to changing to Styled-JSX in the future, but for now TailwindCSS seems like the best option.
+@angelod1as chose to have TailwindCSS as a primary CSS tool, but when need arrives (e.g.: using `:before`), Styled-JSX is a perfect fallback, with great pros.
