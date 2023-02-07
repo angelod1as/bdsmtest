@@ -16,6 +16,9 @@ export const Button: FCC<ButtonProps> = ({ variant = "primary", ...props }) => {
     <button
       className={clx(props.className, className, "border rounded")}
       {...props}
-    />
+    >
+      {props.children}
+      {variant === "primary" && " ▶"}
+    </button>
   )
 }

@@ -50,7 +50,7 @@ export default function Home(): InferGetStaticPropsType<typeof getStaticProps> {
                 ]}
               />
               <Button type="submit" disabled={isSubmitting}>
-                {t("form.submit")} ▶
+                {t("form.submit")}
               </Button>
             </Form>
           )}
