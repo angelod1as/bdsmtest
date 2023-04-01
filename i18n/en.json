@@ -85,8 +85,15 @@
       },
       "login": {
         "submit": "next",
-        "enterEmail": "Please enter your email address to continue",
-        "error": "Something went wrong, please try again later"
+        "error": "Your credentials are not correct. Please try again or register a new account",
+        "email": {
+          "label": "E-mail",
+          "error": "Please enter a valid e-mail"
+        },
+        "password": {
+          "label": "Password",
+          "error": "Please enter a valid password"
+        }
       }
     }
   },
