@@ -34,6 +34,7 @@ export const ROUTES = {
   },
   pages: {
     login: "/login",
+    register: "/register",
     start: "/start",
     index: "/",
     info: "/info",
