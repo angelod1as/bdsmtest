@@ -32,4 +32,11 @@ export const ROUTES = {
     root: ROOT_API_URL,
     ...externalApiRoutes,
   },
+  pages: {
+    login: "/login",
+    start: "/start",
+    index: "/",
+    info: "/info",
+    contact: "/contact",
+  },
 }

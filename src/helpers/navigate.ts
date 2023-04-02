@@ -1,13 +1,11 @@
 import Router from "next/router"
+import { ROUTES } from "./routes"
 
-const routes = {
-  login: "/login",
-  start: "/start",
-}
+export const PAGES = ROUTES.pages
 
-type Route = keyof typeof routes
+export type RouteName = keyof typeof PAGES
 
-export const navigate = (route: Route) => {
-  const path = routes[route]
+export const navigate = (route: RouteName) => {
+  const path = PAGES[route]
   return Router.push(path)
 }

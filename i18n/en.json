@@ -80,7 +80,7 @@
     },
     "login": {
       "head": {
-        "title": "Login and Register",
+        "title": "Login",
         "description": "Login to your account to see past results and user data"
       },
       "login": {
@@ -96,6 +96,12 @@
           "label": "Password",
           "error": "Please enter a valid password"
         }
+      }
+    },
+    "register": {
+      "head": {
+        "title": "Register",
+        "description": "Register an account to store results"
       }
     }
   },
