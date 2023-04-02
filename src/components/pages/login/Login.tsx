@@ -14,6 +14,7 @@ export type LoginFormProps = {
   password?: string
 }
 
+// TODO: Implement NextAuth -- issue #32
 export const LoginPage = () => {
   const [submitError, setSubmitError] = useState("")
   const t = useTranslations("pages.login")
@@ -33,6 +34,7 @@ export const LoginPage = () => {
         body: values,
       })
       if (response.ok === true) {
+        // TODO: Return logged in
         return
       }
 
