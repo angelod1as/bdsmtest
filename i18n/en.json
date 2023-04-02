@@ -40,6 +40,7 @@
         "form-title": "Send us a message!",
         "submitted": "Feedback successfully stored!",
         "error": "Something went wrong, please try again later",
+        "required": "Content is required",
         "submit": "Submit"
       },
       "faq": {
@@ -90,11 +91,13 @@
         "error": "Your credentials are not correct. Please try again or register a new account",
         "email": {
           "label": "E-mail",
-          "error": "Please enter a valid e-mail"
+          "error": "Please enter a valid e-mail",
+          "required": "E-mail is required"
         },
         "password": {
           "label": "Password",
-          "error": "Please enter a valid password"
+          "error": "Please enter a valid password",
+          "required": "Password is required"
         }
       }
     },
@@ -102,6 +105,36 @@
       "head": {
         "title": "Register",
         "description": "Register an account to store results"
+      },
+      "register": {
+        "submit": "Register",
+        "back": "Return to log-in",
+        "error": "Your credentials are not correct. Please try again or register a new account",
+        "email": {
+          "label": "E-mail",
+          "required": "E-mail is required",
+          "error": "Please enter a valid e-mail"
+        },
+        "email-repeat": {
+          "label": "Repeat e-mail",
+          "required": "E-mail is required",
+          "error": "Both e-mails should be equal"
+        },
+        "password": {
+          "label": "Password",
+          "required": "Password is required",
+          "error": "Please enter a valid password",
+          "min": "Must have at least eight characters"
+        },
+        "password-repeat": {
+          "label": "Repeat password",
+          "required": "Password is required",
+          "error": "Both passwords should be equal"
+        },
+        "name": {
+          "label": "Name",
+          "required": "Name is required"
+        }
       }
     }
   },
