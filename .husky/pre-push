@@ -5,8 +5,11 @@ yarn lint
 # yarn test
 
 # Don't allow pushing to main
+BRANCH=`git rev-parse --abbrev-ref HEAD`
 PROTECTED_BRANCHES="^(master|main)"
+
 if [[ "$BRANCH" =~ $PROTECTED_BRANCHES ]]
 then
-  echo -e "\n🚫 $BRANCH is protected, please create your own branch and submit a PR."
+  echo -e "\n🚫 $BRANCH branch is protected, please create your own branch and submit a PR."
+  exit 1
 fi
