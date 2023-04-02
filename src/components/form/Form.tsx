@@ -12,16 +12,17 @@ import { errorToString } from "helpers/errorToString"
 
 import React, { useState } from "react"
 
-type FormProps = {
+type FormProps<Values> = {
   inputs: Array<{
     label: InputProps["label"]
     name: InputProps["name"]
-    type: InputProps["type"]
+    type?: InputProps["type"]
   }>
   translations: {
     formError: string
     submitLabel: string
   }
+  initialValues: Required<Values>
 }
 
 /**
@@ -36,7 +37,7 @@ export const Form = <Values extends FormikValues>({
   translations,
   inputs,
   ...formikProps
-}: FormikConfig<Values> & FormProps) => {
+}: FormikConfig<Values> & FormProps<Values>) => {
   const [submitError, setSubmitError] = useState("")
 
   const handleFocus = () => setSubmitError("")
@@ -53,10 +54,14 @@ export const Form = <Values extends FormikValues>({
   }
 
   return (
-    <Formik<Values> {...formikProps} onSubmit={handleSubmit}>
+    <Formik<Values>
+      {...formikProps}
+      onSubmit={handleSubmit}
+      validateOnChange={formikProps.validateOnChange || false}
+    >
       {({ errors, values, isSubmitting, handleChange }) => (
         <FormikForm className="flex flex-col gap-4 mt-4">
-          {inputs?.map(({ type, name, label }) => {
+          {inputs?.map(({ type = "text", name, label }) => {
             switch (type) {
               // TODO: Add input types
               default:
