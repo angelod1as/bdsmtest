@@ -40,7 +40,7 @@ export const LoginPage = () => {
   }
 
   return (
-    <Box type="outer">
+    <Box type="outer" title={t("title")} level={3}>
       <Form<LoginFormProps>
         initialValues={{ email: "", password: "" }}
         translations={{

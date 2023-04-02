@@ -81,9 +81,10 @@
     },
     "login": {
       "head": {
-        "title": "Login",
+        "title": "Log in",
         "description": "Login to your account to see past results and user data"
       },
+      "title": "Log in",
       "login": {
         "submit": "Next",
         "forgot-password": "Forgot password",
@@ -106,6 +107,7 @@
         "title": "Register",
         "description": "Register an account to store results"
       },
+      "title": "Register a new account",
       "register": {
         "submit": "Register",
         "back": "Return to log-in",
