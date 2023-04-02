@@ -1,5 +1,5 @@
 import { Button } from "components/Button"
-import { Error } from "components/Error"
+import { ErrorMessage } from "components/ErrorMessage"
 import { Input, InputProps } from "components/Input"
 import {
   Formik,
@@ -74,7 +74,7 @@ export const Form = <Values extends FormikValues>({
             }
           })}
 
-          {submitError && <Error>{submitError}</Error>}
+          {submitError && <ErrorMessage>{submitError}</ErrorMessage>}
           <Button variant="primary" type="submit" disabled={isSubmitting}>
             {translations.submitLabel}
           </Button>
