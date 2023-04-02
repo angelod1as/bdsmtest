@@ -18,8 +18,6 @@ export default async function loginHandler(
   // TODO: Decifer the original code on how to do the API call and
   // respond accordingly. This call skips the email check, a security bad practice.
 
-  console.log("test")
-
   if (email === "ok@test.com") {
     return res.json({
       ok: true,
