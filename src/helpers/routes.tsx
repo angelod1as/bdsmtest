@@ -27,6 +27,7 @@ export const ROUTES = {
   api: {
     contact: "/api/contact",
     login: "/api/login",
+    register: "/api/register",
   },
   externalApi: {
     root: ROOT_API_URL,
