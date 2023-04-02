@@ -59,7 +59,7 @@ export const RegisterPage = () => {
   }
 
   return (
-    <Box type="outer">
+    <Box type="outer" title={t("title")} level={3}>
       <Form<RegisterFormProps>
         initialValues={{
           "email-repeat": "",
@@ -102,7 +102,6 @@ export const RegisterPage = () => {
         onSubmit={handleSubmit}
         validationSchema={validationSchema}
       />
-
       <Button
         variant="secondary"
         type="button"
