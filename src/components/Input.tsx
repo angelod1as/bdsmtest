@@ -1,7 +1,7 @@
 import React from "react"
 import { FCC } from "types/types"
 
-type InputProps = JSX.IntrinsicElements["input"] &
+export type InputProps = JSX.IntrinsicElements["input"] &
   JSX.IntrinsicElements["textarea"] & {
     name: string
     label: string
