@@ -3,3 +3,10 @@
 
 yarn lint
 # yarn test
+
+# Don't allow pushing to main
+PROTECTED_BRANCHES="^(master|main)"
+if [[ "$BRANCH" =~ $PROTECTED_BRANCHES ]]
+then
+  echo -e "\n🚫 $BRANCH is protected, please create your own branch and submit a PR."
+fi
