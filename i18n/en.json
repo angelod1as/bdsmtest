@@ -8,7 +8,7 @@
     "not-found": "404 - Page not found",
     "navigation": {
       "start-new-test": "Start new BDSM Test!",
-      "login-register": "Log In / Register",
+      "login": "Log In / Register",
       "profile-logout": "Profile / Log Out",
       "about-faq-contact": "About / FAQ / Contact",
       "info-and-archetypes": "BDSM Info & Archetypes"
@@ -84,7 +84,9 @@
         "description": "Login to your account to see past results and user data"
       },
       "login": {
-        "submit": "next",
+        "submit": "Next",
+        "forgot-password": "Forgot password",
+        "register": "Register",
         "error": "Your credentials are not correct. Please try again or register a new account",
         "email": {
           "label": "E-mail",
