@@ -4,6 +4,7 @@ import { Error } from "components/Error"
 import { Input } from "components/Input"
 import { Form, Formik } from "formik"
 import { callApi } from "helpers/callApi"
+import { navigate } from "helpers/navigate"
 import { ROUTES } from "helpers/routes"
 import { useTranslations } from "next-intl"
 import React, { useState } from "react"
@@ -76,8 +77,21 @@ export const LoginPage = () => {
             />
 
             {submitError && <Error>{submitError}</Error>}
-            <Button variant="secondary" type="submit" disabled={isSubmitting}>
+            <Button variant="primary" type="submit" disabled={isSubmitting}>
               {t("login.submit")}
+            </Button>
+
+            <Button
+              variant="secondary"
+              type="button"
+              disabled={isSubmitting}
+              onClick={() => navigate("login")}
+            >
+              {t("login.forgot-password")}
+            </Button>
+
+            <Button variant="secondary" type="button" disabled={isSubmitting}>
+              {t("login.register")}
             </Button>
           </Form>
         )}

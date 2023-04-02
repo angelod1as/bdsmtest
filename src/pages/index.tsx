@@ -8,7 +8,7 @@ import { Form, Formik } from "formik"
 import { Radio } from "components/Radio"
 import { Button } from "components/Button"
 import { stringToBoolean } from "helpers/stringToBoolean"
-import { useRouter } from "next/router"
+import { navigate } from "helpers/navigate"
 
 type FormProps = {
   goToLogin: "false" | "true" // has to be string because of Radio types
@@ -17,12 +17,11 @@ type FormProps = {
 export default function Home(): InferGetStaticPropsType<typeof getStaticProps> {
   const tCommon = useTranslations("common.head")
   const t = useTranslations("pages.index")
-  const { push } = useRouter()
 
   const handleSubmit = async ({ goToLogin }: FormProps) => {
     const redirectToLogin = stringToBoolean(goToLogin)
-    if (redirectToLogin) return push("/login-register")
-    return push("/start")
+    if (redirectToLogin) return navigate("login")
+    return navigate("start")
   }
 
   return (

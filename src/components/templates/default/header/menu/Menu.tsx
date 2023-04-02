@@ -7,8 +7,8 @@ const menuItems = [
     url: "/",
   },
   {
-    label: "Log In / Register",
-    url: "/login-register",
+    label: "Log In",
+    url: "/login",
   },
   {
     label: "BDSM Info & Archetypes",
