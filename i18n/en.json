@@ -1,7 +1,7 @@
 {
   "common": {
     "head": {
-      "title": "BDSM test",
+      "title": "BDSM Test",
       "description": "Let's test the kink out of you!"
     },
     "title": "Let's test the kink out of you!",
@@ -76,6 +76,24 @@
       "archetypes": {
         "title": "BDSM Archetypes",
         "rich-text-content": "Everyone is different, and finding two kinksters with the exact same preferences is probably impossible. There are however a few common 'archetypes' that people can identify with to varying degrees (from 0% to 100%). Curious to what extent each archetype suits you? Take the test! The list below is by no means complete but it should cover the most common ones."
+      }
+    },
+    "login": {
+      "head": {
+        "title": "Login and Register",
+        "description": "Login to your account to see past results and user data"
+      },
+      "login": {
+        "submit": "next",
+        "error": "Your credentials are not correct. Please try again or register a new account",
+        "email": {
+          "label": "E-mail",
+          "error": "Please enter a valid e-mail"
+        },
+        "password": {
+          "label": "Password",
+          "error": "Please enter a valid password"
+        }
       }
     }
   },

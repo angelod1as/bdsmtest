@@ -12,12 +12,12 @@ type FormProps = {
   content?: string
 }
 
+const validationSchema = yup.object().shape({
+  content: yup.string().required("Required"),
+})
+
 export const ContactBox = () => {
   const t = useTranslations("pages.contact")
-
-  const validationSchema = yup.object().shape({
-    content: yup.string().required("Required"),
-  })
 
   // Must be async
   const handleSubmit = async (

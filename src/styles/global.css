@@ -35,3 +35,6 @@ li {
   @apply list-disc ml-[1rem] my-2
 }
 
+a {
+  @apply underline hover:opacity-80
+}
