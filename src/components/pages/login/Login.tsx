@@ -18,8 +18,11 @@ export const LoginPage = () => {
   const t = useTranslations("pages.login")
 
   const validationSchema = yup.object().shape({
-    email: yup.string().email(t("login.email.error")).required("Required"),
-    password: yup.string().required(),
+    email: yup
+      .string()
+      .email(t("login.email.error"))
+      .required(t("login.email.required")),
+    password: yup.string().required(t("login.password.required")),
   })
 
   const handleSubmit = async (values: LoginFormProps) => {
