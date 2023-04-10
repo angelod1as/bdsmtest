@@ -1,40 +1,38 @@
+import { Box } from "components/Box"
+import { Button } from "components/Button"
+import { H2 } from "components/typography/typography"
+import { navigate } from "helpers/navigate"
+import { useTranslations } from "next-intl"
 import React from "react"
+import { FCC, User } from "types/types"
+import { ChangeButtons } from "./ChangeButtons"
+import { PreviousTests } from "./PreviousTests"
+import { ClaimTest } from "./ClaimTest"
 
-export const ProfilePage = () => {
+type ProfilePageProps = {
+  user: User
+}
+
+export const ProfilePage: FCC<ProfilePageProps> = ({ user }) => {
+  const t = useTranslations("pages.profile.content")
+
   return (
-    <div>
-      <div>Welcome USER</div>
-      <div>Change Name</div>
+    <Box type="outer" className="gap-12">
+      <H2>{t("welcome", { username: user.username })}</H2>
 
-      <div>Change password</div>
-      <div>Change Email</div>
+      <ChangeButtons />
 
-      <div>
-        <div>Previous test results:</div>
+      <PreviousTests tests={user.tests} />
 
-        <div>
-          <span>7 Feb 2018</span>
-          <span>2:20</span>
-          <button>Delete</button>
-        </div>
-      </div>
+      <ClaimTest />
 
-      <div>
-        <div>Got another result? Enter its ID below</div>
+      <Button variant="primary" onClick={() => navigate("index")}>
+        {t("start-new-test")}
+      </Button>
 
-        <div>INPUT</div>
-
-        <div>
-          (if your old result is https://bdsmtest.org/r/29gEr9, then you write
-          29gEr9 in the box above)
-        </div>
-
-        <button>Start new test</button>
-      </div>
-
-      <div>Delete account</div>
-
-      <div>Feedback box</div>
-    </div>
+      <Button variant="secondary" onClick={() => navigate("deleteAccount")}>
+        {t("delete-account")}
+      </Button>
+    </Box>
   )
 }

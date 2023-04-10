@@ -144,7 +144,20 @@
         "title": "Profile",
         "description": "User information page"
       },
-      "content": {}
+      "content": {
+        "welcome": "Welcome {username}!",
+        "change-title": "Change:",
+        "change-name": "Name",
+        "change-password": "Password",
+        "change-email": "Email",
+        "previous-tests": "Previous test results:",
+        "view": "View results",
+        "remove": "Remove",
+        "claim": "Got another result? Enter the URL below:",
+        "placeholder": "Example: https://bdsmtest.org/r/29gEr9",
+        "start-new-test": "Start new test",
+        "delete-account": "Delete account"
+      }
     }
   },
   "archetypes": {
