@@ -14,7 +14,7 @@ export const Button: FCC<ButtonProps> = ({ variant = "primary", ...props }) => {
 
   return (
     <button
-      className={clx(props.className, className, "border rounded")}
+      className={clx(props.className, className, "border rounded px-4")}
       {...props}
     >
       {props.children}
