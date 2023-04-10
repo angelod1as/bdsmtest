@@ -138,6 +138,12 @@
           "required": "Name is required"
         }
       }
+    },
+    "profile": {
+      "head": {
+        "title": "Profile",
+        "description": "User information page"
+      }
     }
   },
   "archetypes": {
