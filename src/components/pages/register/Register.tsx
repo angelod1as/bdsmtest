@@ -17,31 +17,29 @@ export type RegisterFormProps = {
 }
 
 export const RegisterPage = () => {
-  const t = useTranslations("pages.register")
+  const title = useTranslations("pages.register")
+  const t = useTranslations("pages.register.content")
 
   const validationSchema = yup.object().shape({
-    email: yup
-      .string()
-      .email(t("register.email.error"))
-      .required(t("register.email.required")),
+    email: yup.string().email(t("email.error")).required(t("email.required")),
     "email-repeat": yup
       .string()
-      .email(t("register.email-repeat.error"))
+      .email(t("email-repeat.error"))
       .oneOf([yup.ref("email"), null], "E-mails must match")
-      .required(t("register.email-repeat.required")),
+      .required(t("email-repeat.required")),
     password: yup
       .string()
-      .min(8, t("register.password.min"))
+      .min(8, t("password.min"))
       .matches(/.*[A-Z]/, "must contain an uppercase letter")
       .matches(/.*[a-z]/, "must contain a lowercase letter")
       .matches(/.*[0-9]/, "must contain at least one number")
       .matches(/.*[!@#\$%\^&\*]/, "must contain at least one special character")
-      .required(t("register.password.required")),
+      .required(t("password.required")),
     "password-repeat": yup
       .string()
       .oneOf([yup.ref("password"), null], "Passwords must match")
-      .required(t("register.password-repeat.required")),
-    name: yup.string().required(t("register.name.required")),
+      .required(t("password-repeat.required")),
+    name: yup.string().required(t("name.required")),
   })
 
   const handleSubmit = async (values: RegisterFormProps) => {
@@ -59,7 +57,7 @@ export const RegisterPage = () => {
   }
 
   return (
-    <Box type="outer" title={t("title")} level={3}>
+    <Box type="outer" title={title("title")} level={3}>
       <Form<RegisterFormProps>
         initialValues={{
           "email-repeat": "",
@@ -69,32 +67,32 @@ export const RegisterPage = () => {
           password: "",
         }}
         translations={{
-          formError: t("register.error"),
-          submitLabel: t("register.submit"),
+          formError: t("error"),
+          submitLabel: t("submit"),
         }}
         inputs={[
           {
-            label: t("register.email.label"),
+            label: t("email.label"),
             name: "email",
             type: "email",
           },
           {
-            label: t("register.email-repeat.label"),
+            label: t("email-repeat.label"),
             name: "email-repeat",
             type: "email",
           },
           {
-            label: t("register.password.label"),
+            label: t("password.label"),
             name: "password",
             type: "password",
           },
           {
-            label: t("register.password-repeat.label"),
+            label: t("password-repeat.label"),
             name: "password-repeat",
             type: "password",
           },
           {
-            label: t("register.name.label"),
+            label: t("name.label"),
             name: "name",
             type: "text",
           },
@@ -107,7 +105,7 @@ export const RegisterPage = () => {
         type="button"
         onClick={() => navigate("login")}
       >
-        {t("register.back")}
+        {t("back")}
       </Button>
     </Box>
   )

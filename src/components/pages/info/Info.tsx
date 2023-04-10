@@ -41,8 +41,8 @@ export const InfoPage = () => {
   return (
     <Box type="outer">
       {/* Info box */}
-      <Box type="inner" title={t("info.title")}>
-        {t.rich("info.rich-text-content")}
+      <Box type="inner" title={t("content.title")}>
+        {t.rich("content.rich-text-content")}
       </Box>
 
       {/* Archetypes box */}

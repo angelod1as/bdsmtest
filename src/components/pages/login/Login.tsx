@@ -15,14 +15,12 @@ export type LoginFormProps = {
 
 // TODO: Implement NextAuth -- issue #32
 export const LoginPage = () => {
-  const t = useTranslations("pages.login")
+  const title = useTranslations("pages.login")
+  const t = useTranslations("pages.login.content")
 
   const validationSchema = yup.object().shape({
-    email: yup
-      .string()
-      .email(t("login.email.error"))
-      .required(t("login.email.required")),
-    password: yup.string().required(t("login.password.required")),
+    email: yup.string().email(t("email.error")).required(t("email.required")),
+    password: yup.string().required(t("password.required")),
   })
 
   const handleSubmit = async (values: LoginFormProps) => {
@@ -39,21 +37,21 @@ export const LoginPage = () => {
   }
 
   return (
-    <Box type="outer" title={t("title")} level={3}>
+    <Box type="outer" title={title("title")} level={3}>
       <Form<LoginFormProps>
         initialValues={{ email: "", password: "" }}
         translations={{
-          formError: t("login.error"),
-          submitLabel: t("login.submit"),
+          formError: t("error"),
+          submitLabel: t("submit"),
         }}
         inputs={[
           {
-            label: t("login.email.label"),
+            label: t("email.label"),
             name: "email",
             type: "email",
           },
           {
-            label: t("login.password.label"),
+            label: t("password.label"),
             name: "password",
             type: "password",
           },
@@ -67,7 +65,7 @@ export const LoginPage = () => {
         type="button"
         onClick={() => navigate("login")}
       >
-        {t("login.forgot-password")}
+        {t("forgot-password")}
       </Button>
 
       <Button
@@ -75,7 +73,7 @@ export const LoginPage = () => {
         type="button"
         onClick={() => navigate("register")}
       >
-        {t("login.register")}
+        {t("register")}
       </Button>
     </Box>
   )
