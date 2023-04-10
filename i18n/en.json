@@ -154,6 +154,7 @@
         "view": "View results",
         "remove": "Remove",
         "claim": "Got another result? Enter the URL below:",
+        "invalid-url": "You inserted an invalid URL. Please check again.",
         "placeholder": "Example: https://bdsmtest.org/r/29gEr9",
         "start-new-test": "Start new test",
         "delete-account": "Delete account"
