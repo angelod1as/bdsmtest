@@ -40,5 +40,6 @@ export const ROUTES = {
     index: "/",
     info: "/info",
     contact: "/contact",
+    profile: "/profile",
   },
 }

@@ -35,8 +35,7 @@ export const LoginPage = () => {
       throw new Error("no OK")
     }
 
-    // TODO: Return logged in
-    return
+    return navigate("profile")
   }
 
   return (
