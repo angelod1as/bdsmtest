@@ -1,4 +1,5 @@
-import React from "react"
+import { clx } from "helpers/clx"
+import React, { ReactNode } from "react"
 import { FCC } from "types/types"
 
 export type InputProps = JSX.IntrinsicElements["input"] &
@@ -10,6 +11,8 @@ export type InputProps = JSX.IntrinsicElements["input"] &
       JSX.IntrinsicElements["input"]["type"] | "textarea",
       "radio" | "checkbox"
     >
+    /** Element to the right of the Input. Ununsed in case of TextArea */
+    rightElement?: ReactNode
   }
 
 /**
@@ -22,6 +25,7 @@ export const Input: FCC<InputProps> = ({
   label,
   type = "text",
   error,
+  rightElement,
   ...rest
 }) => {
   const commonClassname =
@@ -34,7 +38,15 @@ export const Input: FCC<InputProps> = ({
       {type === "textarea" ? (
         <textarea className={commonClassname} id={name} {...rest} />
       ) : (
-        <input className={commonClassname} id={name} {...rest} type={type} />
+        <div className="flex gap-2">
+          <input
+            className={clx(commonClassname, "w-full")}
+            id={name}
+            {...rest}
+            type={type}
+          />
+          {rightElement ? rightElement : ""}
+        </div>
       )}
       {error && <p className="mt-2 text-sm text-red-500">{error}</p>}
     </div>

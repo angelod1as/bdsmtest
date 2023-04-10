@@ -40,5 +40,11 @@ export const ROUTES = {
     index: "/",
     info: "/info",
     contact: "/contact",
+    changeName: "/edit/name",
+    changePassword: "/edit/password",
+    changeEmail: "/edit/email",
+    deleteAccount: "/edit/delete",
+    profile: "/profile",
+    result: "/r",
   },
 }

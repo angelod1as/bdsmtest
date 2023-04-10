@@ -70,7 +70,7 @@
         "title": "BDSM Info & Archetypes",
         "description": "What is BDSM and what are the archetypes used in this test?"
       },
-      "info": {
+      "content": {
         "title": "BDSM Info",
         "rich-text-content": "<p>BDSM is an umbrella term for a variety of (often erotic) practices or roleplaying; it is an acronym representing three components:</p><List> <Item> BD: Bondage & Discipline (playing with physical restraints, training, punishment, etc.) </Item> <Item> DS: Dominance & Submission (playing with obedience, power exchange, service, humility, etc.) </Item> <Item> SM: Sadism & Masochism (playing with pain, degradation, fear, etc.) </Item> </List> <p>More often than not, other 'deviant' sexual practices are also considered to be part of BDSM.</p><p>BDSM is a consensual activity respecting the fundamental rights of every human being involved; this separates it from sexual and domestic abuse.</p> "
       },
@@ -85,7 +85,7 @@
         "description": "Login to your account to see past results and user data"
       },
       "title": "Log in",
-      "login": {
+      "content": {
         "submit": "Next",
         "forgot-password": "Forgot password",
         "register": "Register",
@@ -108,7 +108,7 @@
         "description": "Register an account to store results"
       },
       "title": "Register a new account",
-      "register": {
+      "content": {
         "submit": "Register",
         "back": "Return to log-in",
         "error": "Your credentials are not correct. Please try again or register a new account",
@@ -137,6 +137,27 @@
           "label": "Name",
           "required": "Name is required"
         }
+      }
+    },
+    "profile": {
+      "head": {
+        "title": "Profile",
+        "description": "User information page"
+      },
+      "content": {
+        "welcome": "Welcome {username}!",
+        "change-title": "Change:",
+        "change-name": "Name",
+        "change-password": "Password",
+        "change-email": "Email",
+        "previous-tests": "Previous test results:",
+        "view": "View results",
+        "remove": "Remove",
+        "claim": "Got another result? Enter the URL below:",
+        "invalid-url": "You inserted an invalid URL. Please check again.",
+        "placeholder": "Example: https://bdsmtest.org/r/29gEr9",
+        "start-new-test": "Start new test",
+        "delete-account": "Delete account"
       }
     }
   },
