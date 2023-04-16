@@ -11,13 +11,29 @@ import {
 import { errorToString } from "helpers/errorToString"
 
 import React, { useState } from "react"
+import { InputTypes } from "types/types"
+
+type InputTypesWithOptions = "select" | "option"
+
+export type FormInput = {
+  label: InputProps["label"]
+  name: InputProps["name"]
+} & (
+  | {
+      type?: Extract<InputTypes, InputTypesWithOptions>
+      options: Array<{
+        label: string
+        value: string | number
+      }>
+    }
+  | {
+      type?: Exclude<InputTypes, InputTypesWithOptions>
+      options?: never
+    }
+)
 
 type FormProps<Values> = {
-  inputs: Array<{
-    label: InputProps["label"]
-    name: InputProps["name"]
-    type?: InputProps["type"]
-  }>
+  inputs: Array<FormInput>
   translations: {
     formError: string
     submitLabel: string

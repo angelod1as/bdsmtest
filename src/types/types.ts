@@ -9,3 +9,27 @@ export type User = {
     id: string
   }>
 }
+
+// Only uncomment what's actually used
+export type InputTypes = "text" | "select" | "option" | "textarea"
+// | "button"
+// | "checkbox"
+// | "color"
+// | "date"
+// | "datetime-local"
+// | "email"
+// | "file"
+// | "hidden"
+// | "image"
+// | "month"
+// | "number"
+// | "password"
+// | "radio"
+// | "range"
+// | "reset"
+// | "search"
+// | "submit"
+// | "tel"
+// | "time"
+// | "url"
+// | "week"
