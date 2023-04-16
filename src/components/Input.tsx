@@ -1,16 +1,13 @@
 import { clx } from "helpers/clx"
 import React, { ReactNode } from "react"
-import { FCC } from "types/types"
+import { FCC, InputTypes } from "types/types"
 
 export type InputProps = JSX.IntrinsicElements["input"] &
   JSX.IntrinsicElements["textarea"] & {
     name: string
     label: string
     error?: string
-    type?: Omit<
-      JSX.IntrinsicElements["input"]["type"] | "textarea",
-      "radio" | "checkbox"
-    >
+    type?: InputTypes
     /** Element to the right of the Input. Ununsed in case of TextArea */
     rightElement?: ReactNode
   }
