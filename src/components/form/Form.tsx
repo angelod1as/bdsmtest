@@ -83,6 +83,7 @@ export const Form = <Values extends FormikValues>({
               default:
                 return (
                   <Input
+                    key={name}
                     label={label}
                     name={name}
                     type={type}
