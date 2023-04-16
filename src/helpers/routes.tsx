@@ -46,5 +46,6 @@ export const ROUTES = {
     deleteAccount: "/edit/delete",
     profile: "/profile",
     result: "/r",
+    prelims: "/prelims",
   },
 }
