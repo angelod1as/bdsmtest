@@ -1,3 +1,5 @@
+Sadly this project is now dead.
+
 # BDSMtest
 
 This is the refactor of the [BDSMtest](https://bdsmtest.org) website.
